@@ -14,13 +14,23 @@ try {
   const data = JSON.parse(dbJson);
 
   let tokensGenerados = 0;
+  let empleadosOmitidos = 0;
 
   // 2. Recorrer CADA empleado en el array 'empleados'
   if (data.empleados && Array.isArray(data.empleados)) {
+    
     data.empleados.forEach(empleado => {
-      // 3. Generar un token UUID (ej: a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6)
-      empleado.token = crypto.randomUUID();
-      tokensGenerados++;
+      
+      // 👇 === ¡AQUÍ ESTÁ LA VALIDACIÓN! === 👇
+      // Si el campo 'token' NO existe, es nulo, o es un string vacío...
+      if (!empleado.token) {
+        // ...entonces generamos uno nuevo.
+        empleado.token = crypto.randomUUID();
+        tokensGenerados++;
+      } else {
+        // ...de lo contrario, lo omitimos.
+        empleadosOmitidos++;
+      }
     });
 
     // 4. Convertir los datos actualizados de vuelta a JSON (formateado)
@@ -29,7 +39,13 @@ try {
     // 5. Escribir y guardar el archivo db.json
     fs.writeFileSync(dbPath, nuevoDbJson, 'utf8');
 
-    console.log(`¡Éxito! Se generaron y guardaron ${tokensGenerados} tokens en ${dbPath}`);
+    console.log('-------------------------------------------');
+    console.log('✅ ¡Proceso de tokens completado!');
+    console.log(`  - ${tokensGenerados} tokens nuevos generados.`);
+    console.log(`  - ${empleadosOmitidos} empleados omitidos (ya tenían token).`);
+    console.log(`  - Archivo actualizado: ${dbPath}`);
+    console.log('-------------------------------------------');
+
 
   } else {
     console.error('Error: No se encontró el array "empleados" en db.json');
