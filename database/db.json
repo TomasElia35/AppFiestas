@@ -1,24 +1,34 @@
 {
-  "empleados": [
-    {
-      "id": "1",
-      "nombre": "Tomas Elia",
-      "documento": "43255207",
-      "Empresa": "Danodis",
-      "Sector": "Sistemas",
-      "Asistio": true,
-      "fechaAsistida": "2025-11-14T21:40:32.879Z",
-      "token": "35946283-1dcb-4e2f-9f7a-8b5e5f6c9a1b"
-    },
-    {
-      "id": "2",
-      "nombre": "Maria Gomez",
-      "documento": "40123456",
-      "Empresa": "TechCorp",
-      "Sector": "Marketing",
-      "Asistio": true,
-      "fechaAsistida": "2024-06-14T18:30:00Z",
-      "token": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
-    }
-  ]
+    "empleados": [
+        {
+            "id": "1",
+            "nombre": "Tomas Elia",
+            "documento": "43255207",
+            "Empresa": "Danodis",
+            "Sector": "Sistemas",
+            "Asistio": true,
+            "fechaAsistida": "2025-11-14T21:40:32.879Z",
+            "token": "7064ac95-7fc0-4ac6-894f-140268c38ce0"
+        },
+        {
+            "id": "2",
+            "nombre": "Maria Gomez",
+            "documento": "40123456",
+            "Empresa": "TechCorp",
+            "Sector": "Marketing",
+            "Asistio": true,
+            "fechaAsistida": "2024-06-14T18:30:00Z",
+            "token": "a9be7119-a384-4937-a801-7e495a4eff98"
+        },
+        {
+            "id": "3",
+            "nombre": "Abigail Galarza",
+            "documento": "42654987",
+            "Empresa": "Danodis",
+            "Sector": "Contable",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": "0024e7cc-6e09-4ca0-9e5e-749ce9620ae5"
+        }
+    ]
 }
