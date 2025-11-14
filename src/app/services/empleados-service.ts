@@ -21,4 +21,21 @@ export class EmpleadosService {
     return this.http.put<EmpleadosModel>(`${this.urlApi}/${empleado.id}`, empleado);
   }
 
+  /**
+   * Valida un empleado usando su DNI y Token.
+   * Devuelve un array, idealmente con 1 resultado si la combinación es correcta.
+   */
+  validarEmpleado(documento: string, token: string): Observable<EmpleadosModel[]> {
+    return this.http.get<EmpleadosModel[]>(`${this.urlApi}?documento=${documento}&token=${token}`);
+  }
+
+  // 👇 AÑADIR ESTE MÉTODO (PARA BÚSQUEDA MANUAL)
+  /**
+   * Busca un empleado usando solo su DNI.
+   * Devuelve un array, idealmente con 1 resultado.
+   */
+  buscarPorDocumento(documento: string): Observable<EmpleadosModel[]> {
+    return this.http.get<EmpleadosModel[]>(`${this.urlApi}?documento=${documento}`);
+  }
+  
 }
