@@ -1,0 +1,18 @@
+<h1>Detalle del empleado</h1>
+
+@if (empleado()) {
+    <div>
+        <p><strong>Nombre:</strong> {{ empleado()!.nombre }}</p>
+        <p><strong>Documento:</strong> {{ empleado()!.documento }}</p>
+        <p><strong>Empresa:</strong> {{ empleado()!.Empresa }}</p>
+        <p><strong>Sector:</strong> {{ empleado()!.Sector }}</p>
+        <p><strong>Asistió:</strong> {{ empleado()!.Asistio ? 'Sí' : 'No' }}</p>
+        @if (empleado()!.Asistio) {
+            <div>
+                <p><strong>Fecha de Asistencia:</strong> {{ empleado()!.fechaAsistida }}</p>
+            </div>
+        }
+    </div>
+} @else {
+    <p>Cargando datos del empleado...</p>
+}

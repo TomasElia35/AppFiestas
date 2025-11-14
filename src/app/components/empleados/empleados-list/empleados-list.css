@@ -1,0 +1,89 @@
+/* Crear estilo para el archivo empleados-list.html */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #ddd;
+}
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+}
+.filter-section {
+    margin-bottom: 20px;
+}
+.filter-section input, .filter-section select {
+    padding: 8px;
+    margin-right: 10px;
+}
+.filter-section label {
+    margin-right: 5px;
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+.pagination a {
+    padding: 5px 10px;
+    margin: 0 2px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+}
+.pagination a:hover {
+    background-color: #45a049;
+}   
+no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+.no-data img {
+    width: 150px;
+    margin-top: 10px;
+}
+.no-data p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.no-data button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+}
+.no-data button:hover {
+    background-color: #0056b3;
+}
