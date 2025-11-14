@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+/* --- Variables de Color Globales --- */
+:root {
+  --color-primario: #007BFF;
+  --color-primario-hover: #0056b3;
+  --color-verde: #28a745;
+  --color-verde-hover: #218838;
+  --color-rojo: #dc3545;
+  --color-fondo: #f4f7f6;
+  --color-superficie: #ffffff; /* Para tarjetas y headers */
+  --color-texto: #333333;
+  --color-texto-claro: #ffffff;
+  --color-borde: #dee2e6;
+  
+  --sombra-caja: 0 4px 10px rgba(0, 0, 0, 0.05);
+  --radio-borde: 8px;
+}
+
+/* --- Reseteo Básico y Fundamentos --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* 1rem = 16px */
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+/* --- Estilos de Elementos Comunes --- */
+img, video, zxing-scanner {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo base para botones */
+button, input[type="submit"], input[type="button"] {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-texto-claro);
+  background-color: var(--color-primario);
+  border: none;
+  border-radius: var(--radio-borde);
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+  background-color: var(--color-primario-hover);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Estilo base para inputs */
+input[type="text"], input[type="search"], select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-borde);
+  background-color: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, select:focus {
+  outline: none;
+  border-color: var(--color-primario);
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+}
+
+/* Estilo para el contenedor principal de la app */
+.contenedor-principal {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}

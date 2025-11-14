@@ -1,36 +1,38 @@
 <h1>Listado de Invitados</h1>
 
-<!-- Busqueda por nombre -->
-<input type="text" placeholder="Buscar por nombre" [(ngModel)]="filtroNombre" /> 
+<div class="filtros-container">
+  <input type="text" placeholder="Buscar por nombre" [(ngModel)]="filtroNombre" /> 
 
-<!-- Filtrar por asistio, no asistio, todos -->
-<select [(ngModel)]="filtroAsistio">
-    <option value="todos">Todos</option>
-    <option value="asistio">Asistió</option>
-    <option value="no-asistio">No asistió</option>
-</select>
+  <select [(ngModel)]="filtroAsistio">
+      <option value="todos">Todos</option>
+      <option value="asistio">Asistió</option>
+      <option value="no-asistio">No asistió</option>
+  </select>
+</div>
 
 @if (isLoading()){
     <p>Cargando empleados...</p>
 } @else {
-    <table>
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Documento</th>
-                <th>Empresa</th>
-                <th>Asistio</th>
-            </tr>
-        </thead>
-        <tbody>
-            @for (empleado of filteredEmpleados(); track empleado.id) {
-                <tr (click)="navigateToDetails(empleado.id!)" style="cursor: pointer;">
-                    <td>{{ empleado.nombre }}</td>
-                    <td>{{ empleado.documento }}</td>
-                    <td>{{ empleado.Empresa }}</td>
-                    <td>{{ (empleado.Asistio ? "Sí" : "No") }}</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+    <div class="table-wrapper">
+      <table>
+          <thead>
+              <tr>
+                  <th>Nombre</th>
+                  <th>Documento</th>
+                  <th>Empresa</th>
+                  <th>Asistio</th>
+              </tr>
+          </thead>
+          <tbody>
+              @for (empleado of filteredEmpleados(); track empleado.id) {
+                  <tr (click)="navigateToDetails(empleado.id!)" style="cursor: pointer;">
+                      <td>{{ empleado.nombre }}</td>
+                      <td>{{ empleado.documento }}</td>
+                      <td>{{ empleado.Empresa }}</td>
+                      <td>{{ (empleado.Asistio ? "Sí" : "No") }}</td>
+                  </tr>
+              }
+          </tbody>
+      </table>
+    </div>
 }

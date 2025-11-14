@@ -1,18 +1,29 @@
-<h1>Detalle del empleado</h1>
-
 @if (empleado()) {
+  <div class="details-container">
+    <h1>Detalle del empleado</h1>
+    
     <div>
-        <p><strong>Nombre:</strong> {{ empleado()!.nombre }}</p>
-        <p><strong>Documento:</strong> {{ empleado()!.documento }}</p>
-        <p><strong>Empresa:</strong> {{ empleado()!.Empresa }}</p>
-        <p><strong>Sector:</strong> {{ empleado()!.Sector }}</p>
-        <p><strong>Asistió:</strong> {{ empleado()!.Asistio ? 'Sí' : 'No' }}</p>
+      <p><strong>Nombre:</strong> {{ empleado()!.nombre }}</p>
+      <p><strong>Documento:</strong> {{ empleado()!.documento }}</p>
+      <p><strong>Empresa:</strong> {{ empleado()!.Empresa }}</p>
+      <p><strong>Sector:</strong> {{ empleado()!.Sector }}</p>
+      <p>
+        <strong>Asistencia:</strong>
         @if (empleado()!.Asistio) {
-            <div>
-                <p><strong>Fecha de Asistencia:</strong> {{ empleado()!.fechaAsistida }}</p>
-            </div>
+          <span class="asistencia-badge asistio-si">Sí</span>
+        } @else {
+          <span class="asistencia-badge asistio-no">No</span>
         }
+      </p>
+
+      @if (empleado()!.Asistio) {
+        <div>
+            <p><strong>Fecha de Asistencia:</strong> {{ empleado()!.fechaAsistida }}</p>
+        </div>
+      }
     </div>
+
+  </div>
 } @else {
     <p>Cargando datos del empleado...</p>
 }

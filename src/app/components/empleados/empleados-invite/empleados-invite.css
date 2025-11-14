@@ -1,59 +1,57 @@
-/* Estilos para el contenedor principal */
 .invite-container {
   max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: var(--radio-borde);
+  box-shadow: var(--sombra-caja);
+  background-color: var(--color-superficie);
 }
 
-/* Selector de modo */
 .modo-selector {
   display: flex;
   margin-bottom: 20px;
-  border-radius: 8px;
+  border-radius: var(--radio-borde);
   overflow: hidden;
-  border: 1px solid #007BFF;
+  border: 1px solid var(--color-primario);
 }
 .modo-selector button {
   flex: 1;
   padding: 15px;
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
   background-color: #f4f4f4;
+  color: var(--color-primario);
   cursor: pointer;
   transition: background-color 0.3s;
+  border-radius: 0;
 }
 .modo-selector button:hover {
   background-color: #e9e9e9;
 }
 .modo-selector button.activo {
-  background-color: #007BFF;
-  color: white;
+  background-color: var(--color-primario);
+  color: var(--color-texto-claro);
   font-weight: bold;
 }
 
-/* Contenedor del escáner */
-.scan-wrapper {
-  text-align: center;
-}
+.scan-wrapper { text-align: center; }
 .scan-wrapper p {
-  font-size: 18px;
-  color: #333;
-}
-/* El componente zxing-scanner suele necesitar un contenedor con tamaño */
-zxing-scanner {
-  display: block;
-  max-width: 100%;
-  height: 400px; /* Ajusta según sea necesario */
-  border: 2px dashed #007BFF;
-  border-radius: 8px;
-  overflow: hidden;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
 }
 
-/* Formulario manual */
+zxing-scanner {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Mantiene el escáner cuadrado */
+  max-height: 500px;
+  border: 2px dashed var(--color-primario);
+  border-radius: var(--radio-borde);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 .manual-wrapper {
   display: flex;
   flex-direction: column;
@@ -61,84 +59,65 @@ zxing-scanner {
   gap: 15px;
 }
 .manual-wrapper p {
-  font-size: 18px;
-  color: #333;
+  font-size: 1.1rem;
+  color: #555;
 }
 .manual-wrapper form {
-  display: contents; /* Para que se integre en el flex layout */
-}
-.manual-wrapper input {
-  width: 80%;
-  padding: 12px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.manual-wrapper button {
-  padding: 12px 25px;
-  font-size: 16px;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-/* Tarjeta de resultado */
-.resultado-wrapper {
-  text-align: center;
-}
+.resultado-wrapper { text-align: center; }
 .tarjeta-empleado {
   background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-borde);
   padding: 20px;
   margin-top: 20px;
   text-align: left;
 }
 .tarjeta-empleado p {
   margin: 10px 0;
-  font-size: 16px;
+  font-size: 1.1rem;
+}
+.tarjeta-empleado p strong {
+  color: #000;
 }
 
-/* Mensajes de estado */
 .mensaje-estado {
   margin-top: 20px;
   padding: 15px;
-  border-radius: 8px;
-  font-size: 16px;
+  border-radius: var(--radio-borde);
+  font-size: 1.1rem;
   font-weight: bold;
 }
 .mensaje-estado.error {
   background-color: #f8d7da;
-  color: #721c24;
+  color: var(--color-rojo);
   border: 1px solid #f5c6cb;
 }
 .mensaje-estado:not(.error) {
   background-color: #d4edda;
-  color: #155724;
+  color: var(--color-verde);
   border: 1px solid #c3e6cb;
 }
 .mensaje-estado.asistio {
   background-color: #cce5ff;
-  color: #004085;
+  color: var(--color-primario-hover);
   border: 1px solid #b8daff;
 }
 
-/* Botón de asistencia */
 .boton-asistencia {
   margin-top: 20px;
   padding: 15px 30px;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
-  background-color: #28a745;
+  background-color: var(--color-verde);
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
   width: 100%;
 }
-.boton-asistencia:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
+.boton-asistencia:hover {
+  background-color: var(--color-verde-hover);
 }

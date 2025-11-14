@@ -1,24 +1,38 @@
-/* Crear estilo para el archivo home.html */
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    gap: 20px;
+.home-container {
+  display: flex;
+  flex-direction: column; /* Apilado en móvil por defecto */
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  gap: 20px;
+  padding: 1rem;
 }
+
 button {
-    padding: 15px 25px;
-    font-size: 16px;
-    background-color: #008CBA;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  width: 100%; /* Botones ocupan todo el ancho en móvil */
+  max-width: 350px; /* Pero no más que esto */
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  background-color: var(--color-primario);
 }
+
 button a {
-    color: white;
-    text-decoration: none;
+  color: var(--color-texto-claro);
+  text-decoration: none;
+  display: block; /* Para que el 'a' ocupe todo el botón */
 }
+
 button:hover {
-    background-color: #007B9E;
+  background-color: var(--color-primario-hover);
+}
+
+/* Media Query para pantallas más grandes (tablets y desktops) */
+@media (min-width: 768px) {
+  .home-container {
+    flex-direction: row; /* Horizontal en pantallas grandes */
+  }
+
+  button {
+    width: auto; /* Ancho automático en pantallas grandes */
+  }
 }

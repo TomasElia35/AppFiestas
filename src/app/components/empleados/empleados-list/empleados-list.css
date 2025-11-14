@@ -1,89 +1,63 @@
-/* Crear estilo para el archivo empleados-list.html */
+/* Contenedor de filtros */
+.filtros-container {
+  display: flex;
+  flex-direction: column; /* Apilado en móvil */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Wrapper de la tabla para scroll horizontal */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto; /* ¡Magia responsive para tablas! */
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-borde);
+}
+
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* Evita que la tabla se "aplasti" demasiado */
 }
+
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+  border-bottom: 1px solid var(--color-borde);
+  padding: 12px 15px;
+  text-align: left;
+  white-space: nowrap; /* Evita que el texto se parta */
 }
+
 th {
-    background-color: #f2f2f2;
+  background-color: #f9f9f9;
+  font-weight: 600;
 }
-tr:nth-child(even) {
-    background-color: #f9f9f9;
+
+tbody tr {
+  background-color: var(--color-superficie);
+  transition: background-color 0.2s;
 }
-tr:hover {
-    background-color: #ddd;
+
+tbody tr:nth-child(even) {
+  background-color: #fcfcfc;
 }
-button {
-    padding: 10px 15px;
-    margin: 5px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+
+tbody tr:hover {
+  background-color: #f0f8ff;
 }
-button:hover {
-    background-color: #45a049;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-a:hover {
-    text-decoration: underline;
-}
-.container {
-    padding: 20px;
-}
-.filter-section {
-    margin-bottom: 20px;
-}
-.filter-section input, .filter-section select {
-    padding: 8px;
-    margin-right: 10px;
-}
-.filter-section label {
-    margin-right: 5px;
-}
-.pagination {
-    margin-top: 20px;
-    text-align: center;
-}
-.pagination a {
-    padding: 5px 10px;
-    margin: 0 2px;
-    background-color: #ccc;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-.pagination a.active {
-    background-color: #4CAF50;
-}
-.pagination a:hover {
-    background-color: #45a049;
-}   
-no-data {
-    text-align: center;
-    font-style: italic;
-    color: #888;
-}
-.no-data img {
-    width: 150px;
-    margin-top: 10px;
-}
-.no-data p {
-    margin-top: 10px;
-    font-size: 16px;
-}
-.no-data button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-}
-.no-data button:hover {
-    background-color: #0056b3;
+
+/* Media Query para pantallas más grandes */
+@media (min-width: 768px) {
+  .filtros-container {
+    flex-direction: row; /* Horizontal en desktop */
+    align-items: center;
+  }
+
+  .filtros-container input {
+    flex-grow: 1; /* El input de búsqueda ocupa el espacio */
+  }
+
+  .filtros-container select {
+    width: auto;
+    min-width: 200px;
+  }
 }

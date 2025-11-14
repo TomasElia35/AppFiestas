@@ -1,0 +1,39 @@
+.details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: var(--color-superficie);
+  border-radius: var(--radio-borde);
+  box-shadow: var(--sombra-caja);
+}
+
+.details-container p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.details-container p strong {
+  display: block; /* Pone el label en su propia línea */
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.asistencia-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.asistio-si {
+  background-color: #d4edda;
+  color: var(--color-verde);
+}
+
+.asistio-no {
+  background-color: #f8d7da;
+  color: var(--color-rojo);
+}

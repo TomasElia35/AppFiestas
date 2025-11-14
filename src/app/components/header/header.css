@@ -1,11 +1,19 @@
 header {
-    background-color: #f8f9fa;
-    padding: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+  background-color: var(--color-superficie);
+  padding: 1.25rem 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: var(--sombra-caja);
+  border-bottom: 1px solid var(--color-borde);
 }
+
 a {
-    color: #343a40;
-    text-decoration: none;
+  color: var(--color-texto);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primario);
+  text-decoration: none;
 }

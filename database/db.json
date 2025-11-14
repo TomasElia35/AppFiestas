@@ -1,24 +1,24 @@
 {
-    "empleados": [
-        {
-            "id": 1,
-            "nombre": "Tomas Elia",
-            "documento": "43255207",
-            "Empresa": "Danodis",
-            "Sector": "Sistemas",
-            "Asistio": false,
-            "fechaAsistida": "2024-06-15T12:00:00Z",
-            "token": "35946283-1dcb-4e2f-9f7a-8b5e5f6c9a1b"
-        },
-        {
-            "id": 2,
-            "nombre": "Maria Gomez",
-            "documento": "40123456",
-            "Empresa": "TechCorp",
-            "Sector": "Marketing",
-            "Asistio": true,
-            "fechaAsistida": "2024-06-14T18:30:00Z",
-            "token": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
-        }
-    ]
+  "empleados": [
+    {
+      "id": "1",
+      "nombre": "Tomas Elia",
+      "documento": "43255207",
+      "Empresa": "Danodis",
+      "Sector": "Sistemas",
+      "Asistio": true,
+      "fechaAsistida": "2025-11-14T21:40:32.879Z",
+      "token": "35946283-1dcb-4e2f-9f7a-8b5e5f6c9a1b"
+    },
+    {
+      "id": "2",
+      "nombre": "Maria Gomez",
+      "documento": "40123456",
+      "Empresa": "TechCorp",
+      "Sector": "Marketing",
+      "Asistio": true,
+      "fechaAsistida": "2024-06-14T18:30:00Z",
+      "token": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+    }
+  ]
 }
