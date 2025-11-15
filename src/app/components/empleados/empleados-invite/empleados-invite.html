@@ -10,8 +10,31 @@
     @if (modo() === 'escanear' && !empleadoEncontrado() && !cargando()) {
       <div class="scan-wrapper">
         <p>Apunte la cámara al código QR del invitado</p>
-        <zxing-scanner (scanSuccess)="onScanSuccess($event)"></zxing-scanner>
-      </div>
+
+        @if (scannerEnabled()) {
+          <zxing-scanner
+            (scanSuccess)="onScanSuccess($event)"
+            (camerasFound)="onCamerasFound($event)"
+            [device]="currentDevice()"
+            [enable]="scannerEnabled()">
+          </zxing-scanner>
+        }
+
+        @if (devices().length > 1) {
+          <div class="camera-selector">
+            <label for="camera-select">Cambiar cámara:</label>
+            <select id="camera-select" (change)="onCameraChange($event)">
+              @for (device of devices(); track device.deviceId) {
+                <option 
+                  [value]="device.deviceId" 
+                  [selected]="device.deviceId === currentDevice()?.deviceId">
+                  {{ device.label }}
+                </option>
+              }
+            </select>
+          </div>
+        }
+        </div>
     }
 
     @if (modo() === 'manual' && !empleadoEncontrado() && !cargando()) {

@@ -29,6 +29,16 @@
             "Asistio": false,
             "fechaAsistida": "",
             "token": "e27124ff-299c-453b-a814-348f4b02b453"
+        },
+        {
+            "id": "4",
+            "nombre": "Gonzalo Garros",
+            "documento": "12345678",
+            "Empresa": "Hergo",
+            "Sector": "Sistemas",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": "bfbc501b-5fac-4dc9-89c1-74271cdb2fbd"
         }
     ]
 }

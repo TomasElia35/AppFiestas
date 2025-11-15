@@ -1,17 +1,18 @@
+// src/app/components/empleados/empleados-invite/empleados-invite.ts
 import { Component, inject, signal } from '@angular/core';
 import { EmpleadosService } from '../../../services/empleados-service';
 import { EmpleadosModel } from '../../../models/empleados-model';
-import { CommonModule } from '@angular/common'; // Importar CommonModule
-import { FormsModule } from '@angular/forms'; // Importar FormsModule
-import { ZXingScannerModule } from '@zxing/ngx-scanner'; // Importar el escáner
+import { CommonModule } from '@angular/common'; 
+import { FormsModule } from '@angular/forms'; 
+import { ZXingScannerModule } from '@zxing/ngx-scanner'; 
 
 @Component({
   selector: 'app-empleados-invite',
-  standalone: true, // Asegurarse que es standalone
+  standalone: true, 
   imports: [
-    CommonModule, // Añadir CommonModule
-    FormsModule, // Añadir FormsModule
-    ZXingScannerModule // Añadir ZXingScannerModule
+    CommonModule, 
+    FormsModule, 
+    ZXingScannerModule 
   ],
   templateUrl: './empleados-invite.html',
   styleUrl: './empleados-invite.css',
@@ -20,28 +21,51 @@ export class EmpleadosInvite {
   private empleadosService = inject(EmpleadosService);
 
   // --- Estados del Componente ---
-  // Almacena el empleado encontrado
   public empleadoEncontrado = signal<EmpleadosModel | null>(null);
-  // Controla el modo (escanear o manual)
   public modo = signal<'escanear' | 'manual'>('escanear');
-  // Almacena el DNI para la búsqueda manual
   public documentoManual = signal('');
-  // Mensajes de estado (éxito, error, etc.)
   public mensaje = signal('');
-  // Estado de carga
   public cargando = signal(false);
 
-/**
-   * Se dispara cuando el escáner QR lee un código con éxito.
-   * Esta versión es más robusta para manejar diferentes tipos de eventos de escaneo.
+  // --- 👇 NUEVOS ESTADOS DEL ESCÁNER ---
+  public scannerEnabled = signal(true); // Para reiniciar el escáner
+  public devices = signal<MediaDeviceInfo[]>([]);
+  public currentDevice = signal<MediaDeviceInfo | undefined>(undefined);
+  // --- 👆 FIN NUEVOS ESTADOS ---
+
+
+  /**
+   * 👇 NUEVO: Se dispara cuando el escáner encuentra los dispositivos de cámara.
    */
-  onScanSuccess(evento: any) { // 1. Cambiamos el tipo a 'any'
+  onCamerasFound(devices: MediaDeviceInfo[]) {
+    this.devices.set(devices);
+    if (devices && devices.length > 0) {
+      // Intenta seleccionar la cámara trasera (environment) por defecto
+      const trasera = devices.find(d => /back|environment/i.test(d.label));
+      this.currentDevice.set(trasera || devices[0]);
+    }
+  }
+
+  /**
+   * 👇 NUEVO: Cambia la cámara activa.
+   */
+  onCameraChange(event: Event) {
+    const target = event.target as HTMLSelectElement;
+    const deviceId = target.value;
+    const device = this.devices().find(d => d.deviceId === deviceId);
+    this.currentDevice.set(device);
+  }
+
+
+  /**
+   * Se dispara cuando el escáner QR lee un código con éxito.
+   */
+  onScanSuccess(evento: any) { // 
     this.cargando.set(true);
     this.resetearEstado();
 
     let textoQR: string = '';
 
-    // 2. Lógica para extraer el texto de forma segura
     if (typeof evento === 'string') {
       textoQR = evento;
     } else if (evento && typeof evento.text === 'string') {
@@ -49,7 +73,6 @@ export class EmpleadosInvite {
     } else if (evento && typeof evento.getText === 'function') {
       textoQR = evento.getText();
     } else {
-      // Si no podemos encontrar el texto, fallamos.
       console.error('El formato del evento de escaneo es desconocido:', evento);
       this.mensaje.set('Error: No se pudo leer el QR. Formato inesperado.');
       this.cargando.set(false);
@@ -57,8 +80,6 @@ export class EmpleadosInvite {
     }
 
     console.log('Resultado QR (limpio):', textoQR);
-
-    // 3. Limpiamos el texto antes de dividirlo
     const textoLimpio = textoQR.trim();
     const partes = textoLimpio.split(',');
 
@@ -131,9 +152,9 @@ export class EmpleadosInvite {
    */
   private verificarAsistencia(empleado: EmpleadosModel) {
     if (empleado.Asistio) {
-      this.mensaje.set(` Este empleado (${empleado.nombre}) ya registró su asistencia.`);
+      this.mensaje.set(`✅ Este empleado (${empleado.nombre}) ya registró su asistencia.`);
     } else {
-      this.mensaje.set(` ¡Bienvenido/a ${empleado.nombre}!`);
+      this.mensaje.set(`👋 ¡Bienvenido/a ${empleado.nombre}!`);
     }
   }
 
@@ -182,7 +203,13 @@ export class EmpleadosInvite {
     this.mensaje.set('');
   }
 
+  /**
+   * 👇 MODIFICADO: Reinicia el escáner para escanear de nuevo
+   */
   escanearDeNuevo() {
     this.resetearEstado();
+    // Forzamos al componente a recargarse
+    this.scannerEnabled.set(false); 
+    setTimeout(() => this.scannerEnabled.set(true), 50); 
   }
 }

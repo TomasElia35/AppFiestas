@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { EmpleadosModel } from '../models/empleados-model';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -9,7 +10,7 @@ import { EmpleadosModel } from '../models/empleados-model';
 export class EmpleadosService {
 
   private http = inject(HttpClient);
-  private urlApi = 'http://localhost:3000/empleados';
+  private urlApi = `http://localhost:3000/empleados`;
 
   getEmpleados(){
         return this.http.get<EmpleadosModel[]>(this.urlApi);

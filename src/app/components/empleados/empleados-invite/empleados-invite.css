@@ -1,3 +1,5 @@
+/* src/app/components/empleados/empleados-invite/empleados-invite.css */
+
 .invite-container {
   max-width: 600px;
   margin: 0 auto;
@@ -26,7 +28,7 @@
   border-radius: 0;
 }
 .modo-selector button:hover {
-  background-color: #e9e9e9;
+  background-color: #e9e9eD;
 }
 .modo-selector button.activo {
   background-color: var(--color-primario);
@@ -41,18 +43,35 @@
   margin-bottom: 1rem;
 }
 
-/* === SECCIÓN CORREGIDA === */
+/* === ¡AQUÍ ESTÁ LA CORRECCIÓN IMPORTANTE! === */
 zxing-scanner {
   display: block;
   width: 100%; /* Ocupa el 100% del contenedor */
-  aspect-ratio: 1 / 1; /* <-- ESTA ES LA SOLUCIÓN */
+  aspect-ratio: 1 / 1; /* Mantiene el escáner cuadrado */
   max-height: 500px; /* Límite para pantallas grandes */
   border: 2px dashed var(--color-primario);
   border-radius: var(--radio-borde);
   overflow: hidden;
   margin: 0 auto;
 }
-/* ========================== */
+
+/* Estilos para el nuevo selector de cámara */
+.camera-selector {
+  margin-top: 15px;
+  text-align: center;
+}
+.camera-selector label {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+.camera-selector select {
+  width: auto;
+  padding: 8px;
+  border-radius: var(--radio-borde);
+  border: 1px solid var(--color-borde);
+}
+/* ========================================= */
 
 
 .manual-wrapper {
