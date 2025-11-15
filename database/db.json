@@ -1,44 +1,54 @@
 {
-  "empleados": [
-    {
-      "id": "1",
-      "nombre": "Tomas Elia",
-      "documento": "43255207",
-      "Empresa": "Danodis",
-      "Sector": "Sistemas",
-      "Asistio": true,
-      "fechaAsistida": "2025-11-14T21:40:32.879Z",
-      "token": "1977b7e8-8f92-4667-89de-d70e22b86aac"
-    },
-    {
-      "id": "2",
-      "nombre": "Maria Gomez",
-      "documento": "40123456",
-      "Empresa": "TechCorp",
-      "Sector": "Marketing",
-      "Asistio": true,
-      "fechaAsistida": "2024-06-14T18:30:00Z",
-      "token": "6021ba69-4ff4-4735-909c-554a1951ef6c"
-    },
-    {
-      "id": "3",
-      "nombre": "Abigail Galarza",
-      "documento": "42654987",
-      "Empresa": "Danodis",
-      "Sector": "Contable",
-      "Asistio": false,
-      "fechaAsistida": "",
-      "token": "e27124ff-299c-453b-a814-348f4b02b453"
-    },
-    {
-      "id": "4",
-      "nombre": "Gonzalo Garros",
-      "documento": "12345678",
-      "Empresa": "Hergo",
-      "Sector": "Sistemas",
-      "Asistio": true,
-      "fechaAsistida": "2025-11-15T13:37:51.328Z",
-      "token": "bfbc501b-5fac-4dc9-89c1-74271cdb2fbd"
-    }
-  ]
+    "empleados": [
+        {
+            "id": "1",
+            "nombre": "Tomas Elia",
+            "documento": "43255207",
+            "Empresa": "Danodis",
+            "Sector": "Sistemas",
+            "Asistio": true,
+            "fechaAsistida": "2025-11-14T21:40:32.879Z",
+            "token": "1977b7e8-8f92-4667-89de-d70e22b86aac"
+        },
+        {
+            "id": "2",
+            "nombre": "Maria Gomez",
+            "documento": "40123456",
+            "Empresa": "TechCorp",
+            "Sector": "Marketing",
+            "Asistio": true,
+            "fechaAsistida": "2024-06-14T18:30:00Z",
+            "token": "6021ba69-4ff4-4735-909c-554a1951ef6c"
+        },
+        {
+            "id": "3",
+            "nombre": "Abigail Galarza",
+            "documento": "42654987",
+            "Empresa": "Danodis",
+            "Sector": "Contable",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": "e27124ff-299c-453b-a814-348f4b02b453"
+        },
+        {
+            "id": "4",
+            "nombre": "Gonzalo Garros",
+            "documento": "12345678",
+            "Empresa": "Hergo",
+            "Sector": "Sistemas",
+            "Asistio": true,
+            "fechaAsistida": "2025-11-15T13:37:51.328Z",
+            "token": "bfbc501b-5fac-4dc9-89c1-74271cdb2fbd"
+        },
+        {
+            "id": "5",
+            "nombre": "Mateo Marconi",
+            "documento": "45681234",
+            "Empresa": "Hergo",
+            "Sector": "Boludear",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": "a1917464-fa78-4f38-8cce-f9f76bfea3ee"
+        }
+    ]
 }
