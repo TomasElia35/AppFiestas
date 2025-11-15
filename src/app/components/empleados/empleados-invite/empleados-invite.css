@@ -41,16 +41,19 @@
   margin-bottom: 1rem;
 }
 
+/* === SECCIÓN CORREGIDA === */
 zxing-scanner {
   display: block;
-  width: 100%;
-  aspect-ratio: 1 / 1; /* Mantiene el escáner cuadrado */
-  max-height: 500px;
+  width: 100%; /* Ocupa el 100% del contenedor */
+  aspect-ratio: 1 / 1; /* <-- ESTA ES LA SOLUCIÓN */
+  max-height: 500px; /* Límite para pantallas grandes */
   border: 2px dashed var(--color-primario);
   border-radius: var(--radio-borde);
   overflow: hidden;
   margin: 0 auto;
 }
+/* ========================== */
+
 
 .manual-wrapper {
   display: flex;

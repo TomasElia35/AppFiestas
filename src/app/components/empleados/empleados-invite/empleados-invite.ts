@@ -1,17 +1,17 @@
 import { Component, inject, signal } from '@angular/core';
 import { EmpleadosService } from '../../../services/empleados-service';
 import { EmpleadosModel } from '../../../models/empleados-model';
-import { CommonModule } from '@angular/common'; // 👈 Importar CommonModule
-import { FormsModule } from '@angular/forms'; // 👈 Importar FormsModule
-import { ZXingScannerModule } from '@zxing/ngx-scanner'; // 👈 Importar el escáner
+import { CommonModule } from '@angular/common'; // Importar CommonModule
+import { FormsModule } from '@angular/forms'; // Importar FormsModule
+import { ZXingScannerModule } from '@zxing/ngx-scanner'; // Importar el escáner
 
 @Component({
   selector: 'app-empleados-invite',
-  standalone: true, // 👈 Asegurarse que es standalone
+  standalone: true, // Asegurarse que es standalone
   imports: [
-    CommonModule, // 👈 Añadir CommonModule
-    FormsModule, // 👈 Añadir FormsModule
-    ZXingScannerModule // 👈 Añadir ZXingScannerModule
+    CommonModule, // Añadir CommonModule
+    FormsModule, // Añadir FormsModule
+    ZXingScannerModule // Añadir ZXingScannerModule
   ],
   templateUrl: './empleados-invite.html',
   styleUrl: './empleados-invite.css',
@@ -35,13 +35,13 @@ export class EmpleadosInvite {
    * Se dispara cuando el escáner QR lee un código con éxito.
    * Esta versión es más robusta para manejar diferentes tipos de eventos de escaneo.
    */
-  onScanSuccess(evento: any) { // 👈 1. Cambiamos el tipo a 'any'
+  onScanSuccess(evento: any) { // 1. Cambiamos el tipo a 'any'
     this.cargando.set(true);
     this.resetearEstado();
 
     let textoQR: string = '';
 
-    // 👈 2. Lógica para extraer el texto de forma segura
+    // 2. Lógica para extraer el texto de forma segura
     if (typeof evento === 'string') {
       textoQR = evento;
     } else if (evento && typeof evento.text === 'string') {
@@ -58,7 +58,7 @@ export class EmpleadosInvite {
 
     console.log('Resultado QR (limpio):', textoQR);
 
-    // 👈 3. Limpiamos el texto antes de dividirlo
+    // 3. Limpiamos el texto antes de dividirlo
     const textoLimpio = textoQR.trim();
     const partes = textoLimpio.split(',');
 
@@ -131,9 +131,9 @@ export class EmpleadosInvite {
    */
   private verificarAsistencia(empleado: EmpleadosModel) {
     if (empleado.Asistio) {
-      this.mensaje.set(`✅ Este empleado (${empleado.nombre}) ya registró su asistencia.`);
+      this.mensaje.set(` Este empleado (${empleado.nombre}) ya registró su asistencia.`);
     } else {
-      this.mensaje.set(`👋 ¡Bienvenido/a ${empleado.nombre}!`);
+      this.mensaje.set(` ¡Bienvenido/a ${empleado.nombre}!`);
     }
   }
 
