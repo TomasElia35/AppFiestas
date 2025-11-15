@@ -1,35 +1,44 @@
-/* Contenedor de filtros */
+/* Contenedor de filtros (Mobile-first) */
 .filtros-container {
   display: flex;
   flex-direction: column; /* Apilado en móvil */
   gap: 15px;
   margin-bottom: 20px;
+  background-color: var(--color-superficie);
+  padding: 1rem;
+  border-radius: var(--radio-borde);
+  box-shadow: var(--sombra-caja);
 }
 
 /* Wrapper de la tabla para scroll horizontal */
 .table-wrapper {
   width: 100%;
-  overflow-x: auto; /* ¡Magia responsive para tablas! */
+  overflow-x: auto; /* ¡Esto hace la tabla responsive! */
   border: 1px solid var(--color-borde);
   border-radius: var(--radio-borde);
+  box-shadow: var(--sombra-caja);
+  background-color: var(--color-superficie);
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 600px; /* Evita que la tabla se "aplasti" demasiado */
+  /* Evita que la tabla se comprima demasiado */
+  min-width: 600px; 
 }
 
 th, td {
   border-bottom: 1px solid var(--color-borde);
   padding: 12px 15px;
   text-align: left;
-  white-space: nowrap; /* Evita que el texto se parta */
+  /* Evita que el texto se parta en varias líneas */
+  white-space: nowrap; 
 }
 
 th {
   background-color: #f9f9f9;
   font-weight: 600;
+  color: #000;
 }
 
 tbody tr {
@@ -42,10 +51,10 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-  background-color: #f0f8ff;
+  background-color: #f0f8ff; /* Un azul claro al pasar el mouse */
 }
 
-/* Media Query para pantallas más grandes */
+/* --- Media Query para pantallas más grandes (Tablets/Desktop) --- */
 @media (min-width: 768px) {
   .filtros-container {
     flex-direction: row; /* Horizontal en desktop */

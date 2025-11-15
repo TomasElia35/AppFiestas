@@ -7,7 +7,7 @@
 
   <div class="modo-contenido">
 
-    @if (modo() === 'escanear' && !empleadoEncontrado() && !cargando()) {
+    @if (modo() === 'escanear') {
       <div class="scan-wrapper">
         <p>Apunte la cámara al código QR del invitado</p>
 
@@ -34,10 +34,10 @@
             </select>
           </div>
         }
-        </div>
+      </div>
     }
 
-    @if (modo() === 'manual' && !empleadoEncontrado() && !cargando()) {
+    @if (modo() === 'manual') {
       <div class="manual-wrapper">
         <p>Ingrese el documento del invitado</p>
         <form (ngSubmit)="buscarManualmente()">
@@ -46,50 +46,22 @@
                  [ngModel]="documentoManual()"
                  (ngModelChange)="documentoManual.set($event)"
                  name="documentoManual" />
-          <button type.="submit">Buscar</button>
+          <button type="submit" [disabled]="cargando()">
+            @if(cargando()) {
+              <span>Buscando...</span>
+            } @else {
+              <span>Buscar</span>
+            }
+          </button>
         </form>
       </div>
     }
 
-    @if (cargando()) {
+    @if (cargando() && modo() === 'escanear') {
       <div class="mensaje-estado">
-        <p>Buscando...</p>
+        <p>Procesando escaneo...</p>
       </div>
     }
 
-    @if (mensaje() && !empleadoEncontrado()) {
-      <div class="mensaje-estado error">
-        <p>{{ mensaje() }}</p>
-        <button (click)="resetearEstado()">Intentar de nuevo</button>
-      </div>
-    }
-
-    @if (empleadoEncontrado(); as empleado) {
-      <div class="resultado-wrapper">
-        <h3>Invitado Encontrado</h3>
-        
-        <div class="tarjeta-empleado">
-          <p><strong>Nombre:</strong> {{ empleado.nombre }}</p>
-          <p><strong>Documento:</strong> {{ empleado.documento }}</p>
-          <p><strong>Empresa:</strong> {{ empleado.Empresa }}</p>
-          <p><strong>Sector:</strong> {{ empleado.Sector }}</p>
-        </div>
-
-        @if (mensaje()) {
-          <div class="mensaje-estado" [class.asistio]="empleado.Asistio">
-            <p>{{ mensaje() }}</p>
-          </div>
-        }
-
-        @if (!empleado.Asistio) {
-          <button class="boton-asistencia" (click)="marcarAsistencia()" [disabled]="cargando()">
-            Marcar Asistencia
-          </button>
-        } @else {
-          <button (click)="escanearDeNuevo()">Escanear Siguiente</button>
-        }
-      </div>
-    }
-
-  </div>
+    </div>
 </div>

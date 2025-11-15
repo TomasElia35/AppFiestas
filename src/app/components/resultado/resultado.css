@@ -1,0 +1,73 @@
+:host {
+  display: block;
+}
+
+.resultado-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  /* Posicionamiento a pantalla completa */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000; /* Asegura que esté por encima de todo */
+  
+  color: var(--color-texto-claro);
+  padding: 1.5rem;
+  cursor: pointer;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Colores de fondo */
+.resultado-container.exito {
+  background-color: var(--color-verde);
+}
+.resultado-container.asistido {
+  background-color: var(--color-aviso); /* El color naranja que añadimos */
+}
+.resultado-container.error {
+  background-color: var(--color-rojo);
+}
+
+.icono {
+  font-size: 8rem; /* Tamaño de icono bien grande */
+  line-height: 1;
+}
+
+.mensaje {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+  line-height: 1.2;
+}
+
+.submensaje {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.boton-volver {
+  margin-top: 3rem;
+  padding: 12px 24px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid var(--color-texto-claro);
+  color: var(--color-texto-claro);
+  border-radius: var(--radio-borde);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.boton-volver:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

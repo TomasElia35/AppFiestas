@@ -1,0 +1,18 @@
+<div class="resultado-container" [ngClass]="claseCss()" (click)="volver()">
+  
+  <div class="icono">
+    {{ icono() }}
+  </div>
+
+  <div class="mensaje">
+    {{ mensaje() }}
+  </div>
+
+  <div class="submensaje">
+    {{ submensaje() }}
+  </div>
+
+  <button class="boton-volver" (click)="volver()">
+    Escanear Siguiente
+  </button>
+</div>

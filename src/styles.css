@@ -13,6 +13,7 @@
   
   --sombra-caja: 0 4px 10px rgba(0, 0, 0, 0.05);
   --radio-borde: 8px;
+  --color-aviso: #f0ad4e; /* Amarillo/Naranja para advertencias */
 }
 
 /* --- Reseteo Básico y Fundamentos --- */

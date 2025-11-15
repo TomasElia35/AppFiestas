@@ -1,10 +1,10 @@
-// src/app/components/empleados/empleados-invite/empleados-invite.ts
 import { Component, inject, signal } from '@angular/core';
 import { EmpleadosService } from '../../../services/empleados-service';
 import { EmpleadosModel } from '../../../models/empleados-model';
 import { CommonModule } from '@angular/common'; 
 import { FormsModule } from '@angular/forms'; 
 import { ZXingScannerModule } from '@zxing/ngx-scanner'; 
+import { Router } from '@angular/router'; // 👈 1. Importar el Router
 
 @Component({
   selector: 'app-empleados-invite',
@@ -19,36 +19,31 @@ import { ZXingScannerModule } from '@zxing/ngx-scanner';
 })
 export class EmpleadosInvite {
   private empleadosService = inject(EmpleadosService);
+  private router = inject(Router); // 👈 2. Inyectar el Router
 
   // --- Estados del Componente ---
-  public empleadoEncontrado = signal<EmpleadosModel | null>(null);
+  // 👇 3. ESTOS ESTADOS YA NO SON NECESARIOS
+  // public empleadoEncontrado = signal<EmpleadosModel | null>(null);
+  // public mensaje = signal('');
+  // 👆 ===================================
+  
   public modo = signal<'escanear' | 'manual'>('escanear');
   public documentoManual = signal('');
-  public mensaje = signal('');
   public cargando = signal(false);
 
-  // --- 👇 NUEVOS ESTADOS DEL ESCÁNER ---
-  public scannerEnabled = signal(true); // Para reiniciar el escáner
+  // --- Estados del Escáner ---
+  public scannerEnabled = signal(true); 
   public devices = signal<MediaDeviceInfo[]>([]);
   public currentDevice = signal<MediaDeviceInfo | undefined>(undefined);
-  // --- 👆 FIN NUEVOS ESTADOS ---
 
-
-  /**
-   * 👇 NUEVO: Se dispara cuando el escáner encuentra los dispositivos de cámara.
-   */
   onCamerasFound(devices: MediaDeviceInfo[]) {
     this.devices.set(devices);
     if (devices && devices.length > 0) {
-      // Intenta seleccionar la cámara trasera (environment) por defecto
       const trasera = devices.find(d => /back|environment/i.test(d.label));
       this.currentDevice.set(trasera || devices[0]);
     }
   }
 
-  /**
-   * 👇 NUEVO: Cambia la cámara activa.
-   */
   onCameraChange(event: Event) {
     const target = event.target as HTMLSelectElement;
     const deviceId = target.value;
@@ -56,13 +51,10 @@ export class EmpleadosInvite {
     this.currentDevice.set(device);
   }
 
-
-  /**
-   * Se dispara cuando el escáner QR lee un código con éxito.
-   */
-  onScanSuccess(evento: any) { // 
+  onScanSuccess(evento: any) { 
+    if (this.cargando()) return; // Evitar doble escaneo
     this.cargando.set(true);
-    this.resetearEstado();
+    // this.resetearEstado(); // Ya no es necesario
 
     let textoQR: string = '';
 
@@ -74,7 +66,7 @@ export class EmpleadosInvite {
       textoQR = evento.getText();
     } else {
       console.error('El formato del evento de escaneo es desconocido:', evento);
-      this.mensaje.set('Error: No se pudo leer el QR. Formato inesperado.');
+      this.router.navigate(['/resultado', 'error']); // 👈 Navegar a error
       this.cargando.set(false);
       return;
     }
@@ -84,7 +76,7 @@ export class EmpleadosInvite {
     const partes = textoLimpio.split(',');
 
     if (partes.length !== 2) {
-      this.mensaje.set('Error: El formato del QR no es válido.');
+      this.router.navigate(['/resultado', 'error']); // 👈 Navegar a error
       this.cargando.set(false);
       return;
     }
@@ -93,83 +85,66 @@ export class EmpleadosInvite {
     this.validarEmpleado(documento, token);
   }
 
-  /**
-   * Se dispara al buscar manualmente.
-   */
   buscarManualmente() {
+    if (this.cargando()) return;
     this.cargando.set(true);
-    this.resetearEstado();
     const doc = this.documentoManual();
 
     if (!doc) {
-      this.mensaje.set('Por favor, ingrese un documento.');
       this.cargando.set(false);
+      // Opcional: manejar mensaje de campo vacío (aunque ahora no hay dónde mostrarlo)
       return;
     }
 
     this.empleadosService.buscarPorDocumento(doc).subscribe({
       next: (empleados) => {
         if (empleados.length > 0) {
-          this.empleadoEncontrado.set(empleados[0]);
-          this.verificarAsistencia(empleados[0]);
+          const empleado = empleados[0];
+          if (empleado.Asistio) {
+            this.router.navigate(['/resultado', 'asistido'], { queryParams: { nombre: empleado.nombre } });
+          } else {
+            this.marcarAsistencia(empleado); // Marcar asistencia y LUEGO navegar
+          }
         } else {
-          this.mensaje.set('Empleado no encontrado con ese documento.');
+          this.router.navigate(['/resultado', 'error']);
         }
         this.cargando.set(false);
       },
       error: () => {
-        this.mensaje.set('Error al conectar con el servidor.');
+        this.router.navigate(['/resultado', 'error']);
         this.cargando.set(false);
       }
     });
   }
 
-  /**
-   * Lógica de validación centralizada (usada por el escáner).
-   */
   private validarEmpleado(documento: string, token: string) {
     this.empleadosService.validarEmpleado(documento, token).subscribe({
       next: (empleados) => {
         if (empleados.length > 0) {
-          // ¡Validación exitosa!
-          this.empleadoEncontrado.set(empleados[0]);
-          this.verificarAsistencia(empleados[0]);
+          const empleado = empleados[0];
+          if (empleado.Asistio) {
+            this.router.navigate(['/resultado', 'asistido'], { queryParams: { nombre: empleado.nombre } });
+          } else {
+            this.marcarAsistencia(empleado); // Marcar asistencia y LUEGO navegar
+          }
         } else {
-          // Combinación DNI/Token incorrecta
-          this.mensaje.set('Invitación no válida o incorrecta.');
+          this.router.navigate(['/resultado', 'error']);
         }
         this.cargando.set(false);
       },
       error: () => {
-        this.mensaje.set('Error al conectar con el servidor.');
+        this.router.navigate(['/resultado', 'error']);
         this.cargando.set(false);
       }
     });
   }
+  
+  // 👇 4. Modificar `marcarAsistencia` para que acepte un empleado
+  marcarAsistencia(empleado: EmpleadosModel) {
+    if (!empleado) return; // Chequeo de seguridad
 
-  /**
-   * Comprueba si el empleado ya asistió y actualiza el mensaje.
-   */
-  private verificarAsistencia(empleado: EmpleadosModel) {
-    if (empleado.Asistio) {
-      this.mensaje.set(`✅ Este empleado (${empleado.nombre}) ya registró su asistencia.`);
-    } else {
-      this.mensaje.set(`👋 ¡Bienvenido/a ${empleado.nombre}!`);
-    }
-  }
-
-  /**
-   * Marca la asistencia del empleado encontrado.
-   */
-  marcarAsistencia() {
-    const empleado = this.empleadoEncontrado();
-    if (!empleado || empleado.Asistio) {
-      return;
-    }
-
-    this.cargando.set(true);
+    this.cargando.set(true); // Asegurarse que sigue cargando
     
-    // Creamos una copia actualizada del empleado
     const empleadoActualizado = {
       ...empleado,
       Asistio: true,
@@ -178,38 +153,26 @@ export class EmpleadosInvite {
 
     this.empleadosService.updateEmpleado(empleadoActualizado).subscribe({
       next: (empleadoRespuesta) => {
-        // Actualizamos el estado local con la respuesta del servidor
-        this.empleadoEncontrado.set(empleadoRespuesta);
-        this.mensaje.set(`¡Asistencia registrada para ${empleadoRespuesta.nombre}!`);
+        // 👇 5. Navegar a éxito
+        this.router.navigate(['/resultado', 'exito'], { queryParams: { nombre: empleadoRespuesta.nombre } });
         this.cargando.set(false);
       },
       error: () => {
-        this.mensaje.set('Error al registrar la asistencia.');
+        this.router.navigate(['/resultado', 'error']); // 👈 Navegar a error
         this.cargando.set(false);
       }
     });
   }
 
   // --- Métodos de utilidad ---
-
   cambiarModo(nuevoModo: 'escanear' | 'manual') {
     this.modo.set(nuevoModo);
-    this.resetearEstado();
+    this.cargando.set(false);
     this.documentoManual.set('');
   }
 
-  resetearEstado() {
-    this.empleadoEncontrado.set(null);
-    this.mensaje.set('');
-  }
-
-  /**
-   * 👇 MODIFICADO: Reinicia el escáner para escanear de nuevo
-   */
-  escanearDeNuevo() {
-    this.resetearEstado();
-    // Forzamos al componente a recargarse
-    this.scannerEnabled.set(false); 
-    setTimeout(() => this.scannerEnabled.set(true), 50); 
-  }
+  // 👇 6. Estos métodos ya no son necesarios
+  // resetearEstado() { ... }
+  // escanearDeNuevo() { ... }
+  // verificarAsistencia() { ... }
 }
