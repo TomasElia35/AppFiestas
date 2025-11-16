@@ -2,14 +2,14 @@ footer {
   background-color: var(--color-superficie);
   padding: 2rem 1rem;
   text-align: center;
-  margin-top: 2rem; /* Pequeño margen superior para separarlo del contenido */
+  margin-top: 2rem;
   border-top: 1px solid var(--color-borde);
-  flex-shrink: 0; /* Evita que el footer se encoja */
+  flex-shrink: 0;
 }
 
 p {
   margin: 0;
-  color: #555;
+  color: var(--color-texto-secundario);
   font-size: 0.9rem;
 }
 

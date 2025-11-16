@@ -16,7 +16,7 @@
 .details-container p strong {
   display: block; /* Pone el label en su propia línea */
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-texto-secundario); /* Usando variable */
   margin-bottom: 0.25rem;
 }
 
@@ -34,6 +34,6 @@
 }
 
 .asistio-no {
-  background-color: #f8d7da;
+  background-color: #fdd8db; /* Fondo rojo claro */
   color: var(--color-rojo);
 }

@@ -1,5 +1,3 @@
-/* src/app/components/empleados/empleados-invite/empleados-invite.css */
-
 .invite-container {
   max-width: 600px;
   margin: 0 auto;
@@ -21,14 +19,14 @@
   padding: 15px;
   font-size: 1rem;
   border: none;
-  background-color: #f4f4f4;
+  background-color: var(--color-superficie);
   color: var(--color-primario);
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, color 0.3s;
   border-radius: 0;
 }
 .modo-selector button:hover {
-  background-color: #e9e9eD;
+  background-color: #f8f9fa; /* Un gris muy sutil */
 }
 .modo-selector button.activo {
   background-color: var(--color-primario);
@@ -39,16 +37,15 @@
 .scan-wrapper { text-align: center; }
 .scan-wrapper p {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--color-texto-secundario);
   margin-bottom: 1rem;
 }
 
-/* === ¡AQUÍ ESTÁ LA CORRECCIÓN IMPORTANTE! === */
 zxing-scanner {
   display: block;
-  width: 100%; /* Ocupa el 100% del contenedor */
-  aspect-ratio: 1 / 1; /* Mantiene el escáner cuadrado */
-  max-height: 500px; /* Límite para pantallas grandes */
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 500px;
   border: 2px dashed var(--color-primario);
   border-radius: var(--radio-borde);
   overflow: hidden;
@@ -63,16 +60,12 @@ zxing-scanner {
 .camera-selector label {
   margin-right: 10px;
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-texto-secundario);
 }
 .camera-selector select {
   width: auto;
   padding: 8px;
-  border-radius: var(--radio-borde);
-  border: 1px solid var(--color-borde);
 }
-/* ========================================= */
-
 
 .manual-wrapper {
   display: flex;
@@ -82,7 +75,7 @@ zxing-scanner {
 }
 .manual-wrapper p {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--color-texto-secundario);
 }
 .manual-wrapper form {
   width: 100%;
@@ -93,7 +86,7 @@ zxing-scanner {
 
 .resultado-wrapper { text-align: center; }
 .tarjeta-empleado {
-  background-color: #f9f9f9;
+  background-color: var(--color-fondo); /* Fondo gris claro */
   border: 1px solid var(--color-borde);
   border-radius: var(--radio-borde);
   padding: 20px;
@@ -105,7 +98,7 @@ zxing-scanner {
   font-size: 1.1rem;
 }
 .tarjeta-empleado p strong {
-  color: #000;
+  color: var(--color-texto);
 }
 
 .mensaje-estado {
@@ -116,7 +109,7 @@ zxing-scanner {
   font-weight: bold;
 }
 .mensaje-estado.error {
-  background-color: #f8d7da;
+  background-color: #fdd8db;
   color: var(--color-rojo);
   border: 1px solid #f5c6cb;
 }
@@ -126,9 +119,9 @@ zxing-scanner {
   border: 1px solid #c3e6cb;
 }
 .mensaje-estado.asistio {
-  background-color: #cce5ff;
-  color: var(--color-primario-hover);
-  border: 1px solid #b8daff;
+  background-color: #fff3cd; /* Amarillo claro */
+  color: var(--color-aviso);
+  border: 1px solid #ffeeba;
 }
 
 .boton-asistencia {

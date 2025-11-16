@@ -1,19 +1,29 @@
-/* --- Variables de Color Globales --- */
+/* --- src/styles.css --- */
+
 :root {
-  --color-primario: #007BFF;
-  --color-primario-hover: #0056b3;
-  --color-verde: #28a745;
-  --color-verde-hover: #218838;
-  --color-rojo: #dc3545;
-  --color-fondo: #f4f7f6;
-  --color-superficie: #ffffff; /* Para tarjetas y headers */
-  --color-texto: #333333;
-  --color-texto-claro: #ffffff;
-  --color-borde: #dee2e6;
+  /* Tu nueva paleta de colores */
+  --color-primario: #283090; /* Azul oscuro principal */
+  --color-primario-hover: #8589BD; /* Tono más claro para hover/bordes */
+  --color-superficie: #FCFCFD; /* Blanco para fondos de tarjetas/cabeceras */
+  --color-rojo: #DF0615; /* Rojo para errores */
+  --color-borde: #8589BD; /* Tono claro para bordes */
+
+  /* Colores heredados (puedes cambiarlos si quieres) */
+  --color-verde: #28a745; /* Verde para éxito */
+  --color-aviso: #f0ad4e; /* Naranja para advertencias */
+  --color-fondo: #f4f7f6; /* Un gris muy claro para el fondo del body */
   
+  /* Tonos de texto */
+  --color-texto: #333333; /* Texto principal oscuro */
+  --color-texto-secundario: #555555; /* Texto secundario gris */
+  --color-texto-claro: #FCFCFD; /* Texto sobre botones oscuros */
+
+  /* Colores de UI */
+  --color-superficie-hover: #f0f8ff; /* Un azul muy claro para hover en tablas */
+  
+  /* Medidas estándar */
   --sombra-caja: 0 4px 10px rgba(0, 0, 0, 0.05);
   --radio-borde: 8px;
-  --color-aviso: #f0ad4e; /* Amarillo/Naranja para advertencias */
 }
 
 /* --- Reseteo Básico y Fundamentos --- */
@@ -22,7 +32,7 @@
 }
 
 html {
-  font-size: 100%; /* 1rem = 16px */
+  font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,10 +55,9 @@ h1 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #000;
+  color: var(--color-texto);
 }
 
-/* --- Estilos de Elementos Comunes --- */
 img, video, zxing-scanner {
   max-width: 100%;
   height: auto;
@@ -96,14 +105,14 @@ input[type="text"], input[type="search"], select {
   font-size: 1rem;
   border: 1px solid var(--color-borde);
   border-radius: var(--radio-borde);
-  background-color: #fff;
+  background-color: var(--color-superficie);
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 input[type="text"]:focus, select:focus {
   outline: none;
   border-color: var(--color-primario);
-  box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+  box-shadow: 0 0 0 3px rgba(40, 48, 144, 0.25); /* Sombra con tu nuevo color primario */
 }
 
 /* Estilo para el contenedor principal de la app */

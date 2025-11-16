@@ -21,11 +21,6 @@ export class EmpleadosInvite {
   private empleadosService = inject(EmpleadosService);
   private router = inject(Router); // 👈 2. Inyectar el Router
 
-  // --- Estados del Componente ---
-  // 👇 3. ESTOS ESTADOS YA NO SON NECESARIOS
-  // public empleadoEncontrado = signal<EmpleadosModel | null>(null);
-  // public mensaje = signal('');
-  // 👆 ===================================
   
   public modo = signal<'escanear' | 'manual'>('escanear');
   public documentoManual = signal('');
@@ -171,8 +166,4 @@ export class EmpleadosInvite {
     this.documentoManual.set('');
   }
 
-  // 👇 6. Estos métodos ya no son necesarios
-  // resetearEstado() { ... }
-  // escanearDeNuevo() { ... }
-  // verificarAsistencia() { ... }
 }

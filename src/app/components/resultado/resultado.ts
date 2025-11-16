@@ -32,7 +32,7 @@ export class ResultadoComponent implements OnInit, OnDestroy {
     // 3. Iniciar el temporizador para volver al escáner
     this.timer = setTimeout(() => {
       this.volver();
-    }, 3000); // 3 segundos
+    }, 5000); // 3 segundos
   }
 
   ngOnDestroy() {
