@@ -2,9 +2,9 @@
   "name": "app-fiesta",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve --host 192.168.160.145 --port 4200",
-    "build": "ng build",
+"ng": "ng",
+  "start": "ng serve --port 4202 --host 192.168.0.180 --ssl",
+  "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "ng build --configuration production --base-href \"https://tomaselia35.github.io/AppFiestas/\" && npx angular-cli-ghpages --dir=dist/appFiesta/browser"
