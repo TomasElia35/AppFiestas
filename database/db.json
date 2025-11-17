@@ -26,9 +26,9 @@
       "documento": "42654987",
       "Empresa": "Danodis",
       "Sector": "Contable",
-      "Asistio": false,
-      "fechaAsistida": "",
-      "token": "e27124ff-299c-453b-a814-348f4b02b453"
+      "Asistio": true,
+      "fechaAsistida": "2025-11-16T19:32:01.309Z",
+      "token": "d5a0e455-390a-4c3c-b86e-f1b7135a9a3e"
     },
     {
       "id": "4",
@@ -49,6 +49,16 @@
       "Asistio": true,
       "fechaAsistida": "2025-11-16T14:39:03.242Z",
       "token": "a1917464-fa78-4f38-8cce-f9f76bfea3ee"
+    },
+    {
+      "id": "6",
+      "nombre": "Facundo Dilota",
+      "documento": "45678952",
+      "Empresa": "Externo",
+      "Sector": "Desarrollo",
+      "Asistio": true,
+      "fechaAsistida": "2025-11-17T12:42:20.539Z",
+      "token": "d4a893a5-dd29-4760-b847-96b0c60bdd02"
     }
   ]
 }
