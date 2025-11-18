@@ -69,3 +69,36 @@ tbody tr:hover {
     min-width: 200px;
   }
 }
+/* 👇 4. AÑADIR ESTOS ESTILOS PARA EL BOTÓN DE EXPORTAR 👇 */
+.export-button {
+  /* Usamos el color verde de tus estilos globales */
+  background-color: var(--color-primario); 
+}
+
+.export-button:hover {
+  background-color: var(--color-verde-hover);
+}
+
+/* En la Media Query, evitamos que el botón se estire */
+@media (min-width: 768px) {
+  .filtros-container {
+    flex-direction: row; 
+    align-items: center;
+  }
+
+  .filtros-container input {
+    flex-grow: 1; 
+  }
+
+  .filtros-container select {
+    width: auto;
+    min-width: 200px;
+  }
+
+  /* 👇 AÑADIR ESTO DENTRO DEL MEDIA QUERY 👇 */
+  .export-button {
+    width: auto; /* Para que no ocupe el 100% de ancho */
+    flex-shrink: 0; /* Para que no se encoja */
+    margin-bottom: 15px;
+  }
+}

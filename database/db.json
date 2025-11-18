@@ -7,28 +7,8 @@
       "Empresa": "Danodis",
       "Sector": "Sistemas",
       "Asistio": true,
-      "fechaAsistida": "2025-11-14T21:40:32.879Z",
-      "token": "1977b7e8-8f92-4667-89de-d70e22b86aac"
-    },
-    {
-      "id": "2",
-      "nombre": "Maria Gomez",
-      "documento": "40123456",
-      "Empresa": "TechCorp",
-      "Sector": "Marketing",
-      "Asistio": true,
-      "fechaAsistida": "2024-06-14T18:30:00Z",
-      "token": "6021ba69-4ff4-4735-909c-554a1951ef6c"
-    },
-    {
-      "id": "3",
-      "nombre": "Abigail Galarza",
-      "documento": "42654987",
-      "Empresa": "Danodis",
-      "Sector": "Contable",
-      "Asistio": true,
-      "fechaAsistida": "2025-11-16T19:32:01.309Z",
-      "token": "d5a0e455-390a-4c3c-b86e-f1b7135a9a3e"
+      "fechaAsistida": "2025-11-18T15:43:35.283Z",
+      "token": "f62910c9-b079-456f-bf58-0884fd447248"
     },
     {
       "id": "4",
@@ -36,19 +16,9 @@
       "documento": "12345678",
       "Empresa": "Hergo",
       "Sector": "Sistemas",
-      "Asistio": true,
-      "fechaAsistida": "2025-11-15T13:37:51.328Z",
-      "token": "bfbc501b-5fac-4dc9-89c1-74271cdb2fbd"
-    },
-    {
-      "id": "5",
-      "nombre": "Mateo Marconi",
-      "documento": "45681234",
-      "Empresa": "Hergo",
-      "Sector": "Boludear",
-      "Asistio": true,
-      "fechaAsistida": "2025-11-16T14:39:03.242Z",
-      "token": "a1917464-fa78-4f38-8cce-f9f76bfea3ee"
+      "Asistio": false,
+      "fechaAsistida": "",
+      "token": "d8a56625-43ac-413a-8886-3c431c8b07b7"
     },
     {
       "id": "6",
@@ -57,8 +27,28 @@
       "Empresa": "Externo",
       "Sector": "Desarrollo",
       "Asistio": true,
-      "fechaAsistida": "2025-11-17T12:42:20.539Z",
-      "token": "d4a893a5-dd29-4760-b847-96b0c60bdd02"
+      "fechaAsistida": "2025-11-18T15:43:28.119Z",
+      "token": "7b5d303e-fa82-48a9-bc03-85aaad69c58d"
+    },
+    {
+      "id": "7",
+      "nombre": "Andres Zucchi",
+      "documento": "12345678",
+      "Empresa": "Danodis",
+      "Sector": "Sistemas",
+      "Asistio": true,
+      "fechaAsistida": "2025-11-18T13:59:55.143Z",
+      "token": "a1d1503d-63d6-4879-ad30-f8012c9c8845"
+    },
+    {
+      "id": "8",
+      "nombre": "Sena Analia Veronica",
+      "documento": "78945612",
+      "Empresa": "Hergo",
+      "Sector": "RR HH",
+      "Asistio": false,
+      "fechaAsistida": "",
+      "token": "8c14d412-b800-4d03-8345-2444ef1c42ba"
     }
   ]
 }

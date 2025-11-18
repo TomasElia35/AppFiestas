@@ -10,6 +10,10 @@
   </select>
 </div>
 
+<button class="export-button" (click)="exportarExcel()">
+    Exportar a Excel
+</button>
+
 @if (isLoading()){
     <p>Cargando empleados...</p>
 } @else {

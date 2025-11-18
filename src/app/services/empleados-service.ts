@@ -10,8 +10,9 @@ import { EmpleadosModel } from '../models/empleados-model';
 export class EmpleadosService {
 
   private http = inject(HttpClient);
-  //private urlApi = `http://localhost:3000/empleados`;
-  private urlApi = `https://192.168.157.154:3001/empleados`;
+  private urlApi = `http://localhost:3000/empleados`;
+  //private urlApi = `https://192.168.157.154:3001/empleados`;
+  //private urlApi = `https://192.168.160.242:3001/empleados`;
   //private urlApi = environment.apiUrl + '/empleados';
 
   getEmpleados(){

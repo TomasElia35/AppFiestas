@@ -46,7 +46,7 @@ async function generarCodigosQR() {
       const textoQR = `${empleado.documento},${empleado.token}`;
       
       // 5. Definir el nombre del archivo (usaremos el DNI)
-      const nombreArchivo = `${empleado.nombre}, ${empleado.documento}.png`;
+      const nombreArchivo = `${empleado.documento}.png`;
       const rutaArchivo = path.join(outputDir, nombreArchivo);
 
       // 👇 === ¡AQUÍ ESTÁ LA VALIDACIÓN! === 👇
