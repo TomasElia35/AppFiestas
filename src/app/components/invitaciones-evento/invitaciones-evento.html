@@ -1,0 +1,49 @@
+<div class="invitacion-container">
+  <h1>Bienvenido a la Fiesta 🎉</h1>
+  <p class="subtitulo">Ingresa tu DNI para obtener tu código de acceso.</p>
+
+  <div class="buscador-box">
+    <input type="text" 
+           placeholder="Número de Documento" 
+           [(ngModel)]="documentoInput" 
+           (keyup.enter)="buscarInvitacion()">
+           
+    <button (click)="buscarInvitacion()" [disabled]="cargando()">
+      @if (cargando()) {
+        <span>Buscando...</span>
+      } @else {
+        <span>Obtener mi QR</span>
+      }
+    </button>
+  </div>
+
+  @if (mensaje()) {
+    <div class="mensaje-error">
+      {{ mensaje() }}
+    </div>
+  }
+
+  @if (empleado(); as emp) {
+    <div class="ticket-card animate-up">
+      <div class="card-header">
+        <h2>{{ emp.nombre }}</h2>
+        <span class="empresa-badge">{{ emp.Empresa }}</span>
+      </div>
+
+      <div class="qr-display">
+        <img [src]="qrUrl()" alt="Código QR de {{ emp.nombre }}">
+      </div>
+
+      <div class="card-footer">
+        <p>Presenta este código en la entrada.</p>
+        @if (emp.Asistio) {
+          <div class="aviso-asistencia">⚠️ Ya figura ingresado</div>
+        }
+      </div>
+    </div>
+  }
+
+<div class="staff-link">
+    <a routerLink="/login">Acceso Staff</a>
+</div>
+</div>
