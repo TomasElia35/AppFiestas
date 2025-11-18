@@ -6,9 +6,12 @@ import { EmpleadosInvite } from './components/empleados/empleados-invite/emplead
 import { ResultadoComponent } from './components/resultado/resultado';
 
 export const routes: Routes = [
+    { path: '', component: Home, pathMatch: 'full', title: 'Pagina de Inicio'},
     { path: 'home', component: Home, title: 'Pagina de Inicio' },
     { path: 'escanear-invitacion', component: EmpleadosInvite, title: 'Escanear Invitación' },
     { path: 'resultado/:status', component: ResultadoComponent, title: 'Resultado del Check-in' },
     { path: 'listado-empleados', component: EmpleadosList, title: 'Listado de Empleados' },
-    { path: 'details/:id', component: EmpleadosDetails }
+    { path: 'details/:id', component: EmpleadosDetails },
+    { path: '**', redirectTo: '' }
+
 ];
