@@ -32,3 +32,16 @@ header {
     background-color: var(--color-rojo);
     color: white;
 }
+
+.main-btn{
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    background-color: transparent;
+    color: var(--color-primario);
+    border: 1px solid var(--color-primario);
+}
+
+.main-btn:hover {
+    background-color: var(--color-primario);
+    color: white;
+}

@@ -18,4 +18,7 @@ export class Header {
     this.authService.logout();
     this.router.navigate(['/']); 
   }
+  menuStaff(){
+    this.router.navigate(['/home']);
+  }
 }
