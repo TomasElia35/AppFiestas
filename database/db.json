@@ -1,0 +1,3434 @@
+{
+    "empleados": [
+        {
+            "id": 1,
+            "nombre": "GARBERI JUAN IGNACIO",
+            "documento": "24119858",
+            "Empresa": "DANODIS",
+            "Sector": "ADM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 2,
+            "nombre": "BIBBO MARIA EMILIA",
+            "documento": "38922432",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 3,
+            "nombre": "MELCON MICAELA SOLEDAD",
+            "documento": "43667200",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 4,
+            "nombre": "RODRIGUEZ JULIAN",
+            "documento": "44264732",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 5,
+            "nombre": "DERBILLI JUAN MANUEL",
+            "documento": "41079038",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 6,
+            "nombre": "SARRAUTE COMELLI AGUSTIN",
+            "documento": "43855478",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 7,
+            "nombre": "GALARZA ABIGAIL LAURA",
+            "documento": "42826912",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 8,
+            "nombre": "LOPEZ THOMAS MARTIN",
+            "documento": "40494773",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 9,
+            "nombre": "GONZALEZ MARIELA BELEN",
+            "documento": "44617846",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 10,
+            "nombre": "PICCIUTO LUCILA",
+            "documento": "43056410",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 11,
+            "nombre": "SIMON GABRIEL HORACIO",
+            "documento": "31992303",
+            "Empresa": "DANODIS",
+            "Sector": "ADM IMP CONTABLE ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 12,
+            "nombre": "SCHOMARSOW ANGELA NOEMI ",
+            "documento": "16249344",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 13,
+            "nombre": "TISERA EZEQUIEL LEANDRO",
+            "documento": "38395186",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 14,
+            "nombre": "BOGLIOTTI MATIAS LEONARDO",
+            "documento": "38606887",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 15,
+            "nombre": "GUERENDIAIN FLORENCIA",
+            "documento": "37671304",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 16,
+            "nombre": "SAIZ MATEO JULIAN",
+            "documento": "42157797",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 17,
+            "nombre": "JARA PEREZ NICOLE",
+            "documento": "43801527",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 18,
+            "nombre": "ABELANDO MATIAS NICOLAS",
+            "documento": "38283470",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 19,
+            "nombre": "ACUÑA ALEJO DAMIAN",
+            "documento": "44534482",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 20,
+            "nombre": "PANIGA ROMANO VALENTINA",
+            "documento": "44336065",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 21,
+            "nombre": "HUMEREZ MARCOS EZEQUIEL",
+            "documento": "40247759",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 22,
+            "nombre": "MARCONI MATEO",
+            "documento": "45905503",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 23,
+            "nombre": "CAMBIASO PEDRO",
+            "documento": "41106336",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 24,
+            "nombre": "GOROSITO KEVIN AGUSTIN",
+            "documento": "4263008",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 25,
+            "nombre": "REGGIARDO IGNACIO",
+            "documento": "43660069",
+            "Empresa": "DANODIS",
+            "Sector": "ADM COMERCIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 26,
+            "nombre": "ABIUS SERGIO JAVIER",
+            "documento": "16779377",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 27,
+            "nombre": "PALADINI IVANA SOLEDAD",
+            "documento": "26417739",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 28,
+            "nombre": "DI SERIO JUAN PABLO",
+            "documento": "31589809",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 29,
+            "nombre": "LOPEZ DIEGO DAMIAN",
+            "documento": "27416586",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 30,
+            "nombre": "LOPEZ FLORENCIA INES",
+            "documento": "35110997",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 31,
+            "nombre": "REDONDO ALFARO MARTIN HERNAN",
+            "documento": "43667010",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 32,
+            "nombre": "SOSA ESTEFANIA ANAHI",
+            "documento": "31638816",
+            "Empresa": "DANODIS",
+            "Sector": "INFO COMECIAL",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 33,
+            "nombre": "CERIONI FLORENCIA ",
+            "documento": "37019341",
+            "Empresa": "DANODIS",
+            "Sector": "ADM CC",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 34,
+            "nombre": "MENDIETA, MARIA CELIA .",
+            "documento": "12251239",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 35,
+            "nombre": "GOMEZ LAURA",
+            "documento": "20068461",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 36,
+            "nombre": "LESCANO MAURO JOSE",
+            "documento": "35268132",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 37,
+            "nombre": "ECHANIZ HECTOR SEBASTIAN",
+            "documento": "24795803",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 38,
+            "nombre": "LOMBARDO LEONARDO MIGUEL",
+            "documento": "37789211",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 39,
+            "nombre": "DEL POTRO OMAR RUBEN",
+            "documento": "13551632",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 40,
+            "nombre": "GOMEZ LIONEL  RODRIGO",
+            "documento": "21475058",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 41,
+            "nombre": "PALAU CLAUDIO",
+            "documento": "35990338",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 42,
+            "nombre": "MARTIN MARIA SOLEDAD ",
+            "documento": "31018660",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 43,
+            "nombre": "QUINTEROS ARIEL NICOLAS",
+            "documento": "43456459",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 44,
+            "nombre": "DELGADO LAUTARO ALEXIS",
+            "documento": "43856061",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 45,
+            "nombre": "BLANCO LUDMILA BELEN",
+            "documento": "44264995",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 46,
+            "nombre": "GAMBOA AGILERA SAYA GUADALUPE",
+            "documento": "42526474",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 47,
+            "nombre": "VIGAS JOAQUIN",
+            "documento": "41457799",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 48,
+            "nombre": "KOZLOVSKI NADIA SOLEDAD",
+            "documento": "39163839",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 49,
+            "nombre": "TURZA HERNANDEZ IÑAKI",
+            "documento": "44860077",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 50,
+            "nombre": "BARUZZI MARIA AGUSTINA",
+            "documento": "34324122",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 51,
+            "nombre": "GALARZA MARTIN MANUEL",
+            "documento": "44861092",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 52,
+            "nombre": "DIAZ FEDERICO MARTIN",
+            "documento": "45399692",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 53,
+            "nombre": "CARESIA MATEO ",
+            "documento": "46318512",
+            "Empresa": "DANODIS",
+            "Sector": "FINANZAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 54,
+            "nombre": "ZUCCHI OSCAR ANDRES",
+            "documento": "32029922",
+            "Empresa": "DANODIS",
+            "Sector": "SISTEMAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 55,
+            "nombre": "GARROS GONZALO",
+            "documento": "31018519",
+            "Empresa": "DANODIS",
+            "Sector": "SISTEMAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 56,
+            "nombre": "BARRAGAN CRISTIAN ARIEL",
+            "documento": "43017673",
+            "Empresa": "DANODIS",
+            "Sector": "SISTEMAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 57,
+            "nombre": "ELIA GIMENEZ TOMAS",
+            "documento": "43255207",
+            "Empresa": "DANODIS",
+            "Sector": "SISTEMAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 58,
+            "nombre": "GONZALEZ FEDERICO",
+            "documento": "29249307",
+            "Empresa": "DANODIS",
+            "Sector": "RRHH",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 59,
+            "nombre": "SENA ANALIA VERONICA",
+            "documento": "22498043",
+            "Empresa": "DANODIS",
+            "Sector": "RRHH",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 60,
+            "nombre": "ITUARTE MARIANA",
+            "documento": "40224021",
+            "Empresa": "DANODIS",
+            "Sector": "RRHH",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 61,
+            "nombre": "PECCIA PEDRO SANTIAGO",
+            "documento": "42882351",
+            "Empresa": "DANODIS",
+            "Sector": "RRHH",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 62,
+            "nombre": "MARCELLO RODRIGO IGNACIO",
+            "documento": "36944966",
+            "Empresa": "DANODIS",
+            "Sector": "RRHH",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 63,
+            "nombre": "LAZZARONI GARAT EUGENIA LUCIA",
+            "documento": "34592739",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 64,
+            "nombre": "LION DELFINA",
+            "documento": "41458977",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 65,
+            "nombre": "GIOVANELLI MARTINA",
+            "documento": "41333290",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 66,
+            "nombre": "MONCADA MICAELA",
+            "documento": "39835916",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 67,
+            "nombre": "PEZZELATO PAULA SOFIA",
+            "documento": "43784397",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 68,
+            "nombre": "ALVAREZ GUADALUPE",
+            "documento": "42593897",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 69,
+            "nombre": "LEOFANTI RAMIRO",
+            "documento": "43740635",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 70,
+            "nombre": "SCIANNA FELICITAS",
+            "documento": "40635750",
+            "Empresa": "DANODIS",
+            "Sector": "DESARROLLO",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 71,
+            "nombre": "VALOR JUAN DOMINGO ",
+            "documento": "16107365",
+            "Empresa": "DANODIS",
+            "Sector": "SEGURIDAD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 72,
+            "nombre": "BERTOLA HERNAN DAMIAN",
+            "documento": "25912768",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 73,
+            "nombre": "DAOUD GASTON DAMIAN",
+            "documento": "24446790",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 74,
+            "nombre": "CORONEL MANUEL",
+            "documento": "42157522",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 75,
+            "nombre": "DE FILIPPIS LUCAS",
+            "documento": "31185881",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 76,
+            "nombre": "CRESPO BRIAN NAHUEL",
+            "documento": "41429897",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 77,
+            "nombre": "GAMARRA MARTIN GABRIEL",
+            "documento": "41927996",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 78,
+            "nombre": "GARIBOTTO IGNACIO",
+            "documento": "43740628",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 79,
+            "nombre": "PACHELLI MATIAS AGUSTIN",
+            "documento": "42322806",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 80,
+            "nombre": "CABRERA AXEL IVAN",
+            "documento": "48309772",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 81,
+            "nombre": "CAINERO NICOLAS HERNAN",
+            "documento": "45922924",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 82,
+            "nombre": "FERRETTI ROMAN",
+            "documento": "45031195",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 83,
+            "nombre": "TONSO WALTER NAHUEL",
+            "documento": "45995192",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 84,
+            "nombre": "GAUNA SANTIAGO",
+            "documento": "46747309",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 85,
+            "nombre": "ROCA KEVIN SAMUEL",
+            "documento": "45922936",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 86,
+            "nombre": "PEREZ FRANCO ",
+            "documento": "47217303",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 87,
+            "nombre": "LOPEZ SALLETTE IGNACIO",
+            "documento": "42043000",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 88,
+            "nombre": "SOSA HUGO ERNESTO",
+            "documento": "28878585",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 89,
+            "nombre": "COLONELLO SEBASTIAN",
+            "documento": "30025905",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 90,
+            "nombre": "FERRERO LEANDRO MATIAS",
+            "documento": "31821169",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 91,
+            "nombre": "MARTINEZ GASTÓN JOEL",
+            "documento": "36382947",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 92,
+            "nombre": "RODRIGUEZ GOMEZ EZEQUIEL",
+            "documento": "44860970",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 93,
+            "nombre": "VILLAGRAN TOBIAS NAHUEL",
+            "documento": "46012702",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 94,
+            "nombre": "GARCIA MARIANO",
+            "documento": "44335902",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 95,
+            "nombre": "SISTI AGUSTIN ARIEL",
+            "documento": "38704745",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 96,
+            "nombre": "RAMOS RODRIGO ALEJANDRO",
+            "documento": "43851679",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 97,
+            "nombre": "VILLA OCTAVIO",
+            "documento": "45539155",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 98,
+            "nombre": "CHAPA BENTOS, LUCAS DAMIAN",
+            "documento": "46019233",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 99,
+            "nombre": "CASTAÑO RODRIGO ALEXANDER",
+            "documento": "44861454",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 100,
+            "nombre": "VASQUEZ LEANDRO HECTOR",
+            "documento": "42453069",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 101,
+            "nombre": "ALMARAZ RODRIGO NAHUEL",
+            "documento": "43185283",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 102,
+            "nombre": "PARRA LUCAS MARCELO",
+            "documento": "44418460",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 103,
+            "nombre": "MACAGNO ELIAN WALTER",
+            "documento": "44859989",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 104,
+            "nombre": "CARBAJO AGUSTIN NICOLAS",
+            "documento": "43854552",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 105,
+            "nombre": "CHAVEZ MATIAS NAHUEL",
+            "documento": "42569213",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 106,
+            "nombre": "SILVA LUCA TIZIANO",
+            "documento": "46564542",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 107,
+            "nombre": "CARDOZO GONZALO JULIAN",
+            "documento": "42590961",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 108,
+            "nombre": "FRANCO KEVIN DAVID",
+            "documento": "44336565",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 109,
+            "nombre": "ORONA GUILLERMO GABRIEL",
+            "documento": "39431521",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 110,
+            "nombre": "MILIAN NESTOR ESTEBAN EMANUEL",
+            "documento": "41714980",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 111,
+            "nombre": "FARIAS MAURICIO",
+            "documento": "27240411",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 112,
+            "nombre": "ESTALLES MARCELO",
+            "documento": "27842076",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 113,
+            "nombre": "ALIX RAMIRO",
+            "documento": "33646770",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 114,
+            "nombre": "SOSA JULIAN",
+            "documento": "40759081",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 115,
+            "nombre": "GOMEZ ROBERTO OMAR",
+            "documento": "42231150",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 116,
+            "nombre": "CLEMENTE FACUNDO AGUSTIN",
+            "documento": "43387569",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 117,
+            "nombre": "ZALAZAR MARCOS GASPAR",
+            "documento": "44692653",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 118,
+            "nombre": "DIOCA NICOLAS MARTIN",
+            "documento": "40830735",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 119,
+            "nombre": "RADA AARON GABRIEL",
+            "documento": "44459962",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 120,
+            "nombre": "MELIAN DAIANA GISELA",
+            "documento": "34371971",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 121,
+            "nombre": "CATTELAN ROCIO",
+            "documento": "39102568",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 122,
+            "nombre": "MELLADO PABLO DANIEL",
+            "documento": "33772588",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 123,
+            "nombre": "FERREIRA RICARDO DANIEL",
+            "documento": "33625258",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 124,
+            "nombre": "BANCHEY IGNACIO ISMAEL",
+            "documento": "43107436",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 125,
+            "nombre": "CAPDEVILA, RICARDO DANIEL .",
+            "documento": "25155293",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 126,
+            "nombre": "URBISTONDO JOSE NICOLAS",
+            "documento": "41715529",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 127,
+            "nombre": "PEÑA CRISTIAN ALBERTO",
+            "documento": "31186951",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 128,
+            "nombre": "RUSSO WALTER NAHUEL",
+            "documento": "43185054",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 129,
+            "nombre": "ABIUS JOAQUIN",
+            "documento": "44860787",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 130,
+            "nombre": "DAGUERRE JAVIER ALFREDO",
+            "documento": "41429237",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 131,
+            "nombre": "ROLDAN MAXIMILIANO PABLO",
+            "documento": "43740986",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 132,
+            "nombre": "LARRALDE MATIAS SEBASTIAN",
+            "documento": "42289345",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 133,
+            "nombre": "CASTRO LEANDRO ARIEL",
+            "documento": "39338575",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 134,
+            "nombre": "RUBIO PABLO MARIANO",
+            "documento": "43387318",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 135,
+            "nombre": "BALDI PEDRO",
+            "documento": "41306897",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 136,
+            "nombre": "RUBILAR BRIAN JOEL",
+            "documento": "45923290",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 137,
+            "nombre": "ESQUIBEL LAUTARO JOAQUIN",
+            "documento": "46564986",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 138,
+            "nombre": "AQUINO LAUTARO JOAQUIN",
+            "documento": "43985824",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 139,
+            "nombre": "OLIVERA MIGUEL AGUSTIN",
+            "documento": "46191905",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 140,
+            "nombre": "TULIAN JESUS BAUTISTA DANIEL",
+            "documento": "45500097",
+            "Empresa": "DANODIS",
+            "Sector": "SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 141,
+            "nombre": "MELE NOCIFORO BRAIAN AGUSTIN",
+            "documento": "43255267",
+            "Empresa": "DANODIS",
+            "Sector": "MKT ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 142,
+            "nombre": "ORELLANO RAMIRO YAEL",
+            "documento": "42116641",
+            "Empresa": "DANODIS",
+            "Sector": "MKT ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 143,
+            "nombre": "SANTALLUCCI SILVANA RAQUEL",
+            "documento": "46191905",
+            "Empresa": "DANODIS",
+            "Sector": "RRHH",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 144,
+            "nombre": "MARIA FLORENCIA GIULIANO",
+            "documento": "30025919",
+            "Empresa": "DANODIS",
+            "Sector": "MKT ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 145,
+            "nombre": "LEON TAPIA DAVID",
+            "documento": "18854542",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 146,
+            "nombre": "CHAVEZ GLADYS",
+            "documento": "27417453",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 147,
+            "nombre": "DI MAURO LEONARDO SALVADOR",
+            "documento": "26659808",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 148,
+            "nombre": "SERRA JAVIER ALBERTO",
+            "documento": "31018729",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 149,
+            "nombre": "VAZQUEZ ALAN MAXIMILIANO",
+            "documento": "34500370",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 150,
+            "nombre": "VELEZ RIOS CINTIA MELISA",
+            "documento": "29495472",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 151,
+            "nombre": "GIUDICI IVAN PATRICIO",
+            "documento": "41669437",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 152,
+            "nombre": "CALDERON CAMILA ALEJANDRA",
+            "documento": "40478811",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 153,
+            "nombre": "MONTES DE OCA TOMAS",
+            "documento": "43784527",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 154,
+            "nombre": "TRONCOSO MATIAS EZEQUIEL",
+            "documento": "40291461",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 155,
+            "nombre": "MEGNINI FACUNDO",
+            "documento": "44619212",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 156,
+            "nombre": "TELLO NICOLAS ",
+            "documento": "44783897",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 157,
+            "nombre": "LIBERTI GEREZ JULIETA SOFIA",
+            "documento": "41937060",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 158,
+            "nombre": "CHIGHINI GABRIEL",
+            "documento": "41715352",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 159,
+            "nombre": "LOPEZ LUDMILA BELEN",
+            "documento": "43667406",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 160,
+            "nombre": "ESTEVEZ DAIANA NAHIR",
+            "documento": "40721743",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 161,
+            "nombre": "DENIS JULIETA STEFANIA",
+            "documento": "36217143",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "VNT AD ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 162,
+            "nombre": "AVELLANEDA PAOLA",
+            "documento": "26370335",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "REPO AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 163,
+            "nombre": "JUAREZ ANDREA CECILIA",
+            "documento": "25155314",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 164,
+            "nombre": "GONZALEZ MARIANA LAURA ",
+            "documento": "30682260",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 165,
+            "nombre": "SPERA ANA LORENA",
+            "documento": "28016360",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 166,
+            "nombre": "CASOLA TOMAS",
+            "documento": "44692726",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 167,
+            "nombre": "CHASPMAN ROCIO CASILDA",
+            "documento": "38428019",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 168,
+            "nombre": "DORADO JAVIER MAXIMILIANO",
+            "documento": "33671241",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 169,
+            "nombre": "IRIGARAY MATIAS",
+            "documento": "38497179",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 170,
+            "nombre": "LATERZA THOMAS IVAN",
+            "documento": "42688613",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 171,
+            "nombre": "ERCORECA DENISE",
+            "documento": "38831938",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 172,
+            "nombre": "ITURRALDE EZEQUIEL MARTIN",
+            "documento": "37784215",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 173,
+            "nombre": "TORRES JUAN PABLO",
+            "documento": "42454370",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 174,
+            "nombre": "FACAL FLORENCIA MICAELA",
+            "documento": "35618072",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 175,
+            "nombre": "VALVERDE SHARON ABIGAIL",
+            "documento": "39098427",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 176,
+            "nombre": "GARAY TOMAS",
+            "documento": "41556097",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 177,
+            "nombre": "CEBALLOS LUCAS CRISTIAN",
+            "documento": "38828721",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 178,
+            "nombre": "AURIFORTE LUCA",
+            "documento": "40795247",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 179,
+            "nombre": "KLITSCH CESAR RICARDO",
+            "documento": "39764547",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 180,
+            "nombre": "CASALINS GONZALO",
+            "documento": "25679620",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 181,
+            "nombre": "DEL VALLE LUCAS",
+            "documento": "39787358",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 182,
+            "nombre": "ALBARRACIN AGUSTIN ",
+            "documento": "42112144",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 183,
+            "nombre": "DI MAURO JUAN IGNACIO",
+            "documento": "25957069",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "REPO SMK AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 184,
+            "nombre": "DE LA PERA IBAÑEZ NICOLAS EZEQUIEL",
+            "documento": "35801951",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "REPO SMK AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 185,
+            "nombre": "GENOVA MARIA VICTORIA ",
+            "documento": "24699936",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 186,
+            "nombre": "VIAMONTE MARIA LAURA",
+            "documento": "22313221",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 187,
+            "nombre": "KROLL MARIANA",
+            "documento": "24110443",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 188,
+            "nombre": "BARCELO MARIANA",
+            "documento": "17021614",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 189,
+            "nombre": "PALMIERI NICOLAS SEBASTIAN",
+            "documento": "29557093",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 190,
+            "nombre": "MENA CRISTIAN",
+            "documento": "35333198",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 191,
+            "nombre": "CORDOBA AXEL JOSE",
+            "documento": "43099318",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 192,
+            "nombre": "CARRIZO DARIO FERNANDO",
+            "documento": "39896416",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 193,
+            "nombre": "PASTRELLO CAMILA BELEN",
+            "documento": "41148879",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 194,
+            "nombre": "THOMASSEN DIEGO TOMAS",
+            "documento": "32603972",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 195,
+            "nombre": "RODIGUEZ MARIANO HORACIO EZEQUIEL",
+            "documento": "28628520",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 196,
+            "nombre": "SPERATTI FEDERICO GONZALO",
+            "documento": "35333429",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 197,
+            "nombre": "PARDO LEANDRO JAVIER",
+            "documento": "34469629",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 198,
+            "nombre": "CALDERON ALDANA STEFANIA",
+            "documento": "41926057",
+            "Empresa": "BLACK DISTRIBUCION",
+            "Sector": "PVT BLK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 199,
+            "nombre": "CORDOBA ALEJANDRO EZEQUIEL",
+            "documento": "41831528",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 200,
+            "nombre": "GRANDI FRANCO NICOLAS",
+            "documento": "42042059",
+            "Empresa": "DANODIS",
+            "Sector": "PVT SM ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 201,
+            "nombre": "PEDROSA LUZ MAITENA",
+            "documento": "43856016",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 202,
+            "nombre": "PACHECO ESTEFANIA BELEN",
+            "documento": "37867216",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "PVT AD",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 203,
+            "nombre": "GOMEZ EDUARDO",
+            "documento": "13742579",
+            "Empresa": "DANODIS",
+            "Sector": "ADM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 204,
+            "nombre": "DREON LAURA ANDREA",
+            "documento": "23296231",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 205,
+            "nombre": "DOPAZO SEBASTIAN",
+            "documento": "27822628",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 206,
+            "nombre": "COUDURES SOL BERENICE",
+            "documento": "38497244",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 207,
+            "nombre": "MATEOS LUCIANO",
+            "documento": "44336222",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 208,
+            "nombre": "CASAUX LUPPI AXEL DAVID ",
+            "documento": "41333185",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 209,
+            "nombre": "TIERNO LAUTARO",
+            "documento": "43456757",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 210,
+            "nombre": "MIGLIACCIO TOMAS ENZO",
+            "documento": "42569229",
+            "Empresa": "DANODIS",
+            "Sector": "COMPRAS",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 211,
+            "nombre": "MUNIVEZ FLAVIO",
+            "documento": "17520038",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "MTM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 212,
+            "nombre": "FERNANDEZ ROBERTO OMAR ",
+            "documento": "13089665",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "MTM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 213,
+            "nombre": "ADAMINI ADRIAN ISMAEL",
+            "documento": "26057764",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "MTM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 214,
+            "nombre": "BATISTONI DARIO ADRIAN",
+            "documento": "28608109",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "ADM LOG",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 215,
+            "nombre": "GUTIERREZ FACUNDO",
+            "documento": "42366634",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 216,
+            "nombre": "LEON ARIAS EMMANUEL JESUS",
+            "documento": "43255554",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 217,
+            "nombre": "DE LA CANAL PABLO AZUL",
+            "documento": "44144869",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 218,
+            "nombre": "SUAREZ SERGIO",
+            "documento": "24589763",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 219,
+            "nombre": "FRUTOS GASTON",
+            "documento": "33014476",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 220,
+            "nombre": "ETCHEVERRY ALEX IVAN",
+            "documento": "37058311",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 221,
+            "nombre": "LAZARTE FRANCO NICOLAS",
+            "documento": "40380001",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 222,
+            "nombre": "MARTINEZ EMANUEL OSCAR",
+            "documento": "37012368",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 223,
+            "nombre": "SANTAMARINA FRANCO NAHUEL",
+            "documento": "38685181",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 224,
+            "nombre": "DURSO FRANCO NAHUEL",
+            "documento": "37785904",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 225,
+            "nombre": "MELCON MARCELO FABIAN",
+            "documento": "22341463",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 226,
+            "nombre": "DELGADO GASTON ARIEL",
+            "documento": "45872990",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 227,
+            "nombre": "IBARLUCEA MARIO ANDRES",
+            "documento": "34740330",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO MDP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 228,
+            "nombre": "MARTINEZ JUAN S.",
+            "documento": "26497945",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 229,
+            "nombre": "UBIEDO JUAN ",
+            "documento": "23938121",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 230,
+            "nombre": "CUEVAS LEON CARLOS ",
+            "documento": "18639145",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 231,
+            "nombre": "GOROZ IVAN GABRIEL",
+            "documento": "32937428",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 232,
+            "nombre": "JUANTO ENRIQUE EDGARDO",
+            "documento": "30867641",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 233,
+            "nombre": "GALLARDO CESAR GABRIEL",
+            "documento": "36616959",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 234,
+            "nombre": "CORDOBA MIGUEL ANGEL",
+            "documento": "29593244",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 235,
+            "nombre": "TOLEDO CARLOS MAXIMILIANO ",
+            "documento": "29516533",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 236,
+            "nombre": "GALVAN GABRIEL",
+            "documento": "38284747",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 237,
+            "nombre": "CRAISE JOEL OSCAR",
+            "documento": "42630160",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 238,
+            "nombre": "BARRAZA GOMEZ ANTONIO BENJAMIN",
+            "documento": "41429511",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 239,
+            "nombre": "ROCHA ALEXIS AGUSTIN",
+            "documento": "40864854",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 240,
+            "nombre": "GLOZIK ESTEBAN MIGUEL",
+            "documento": "31185455",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 241,
+            "nombre": "MONTEAGUDO ESTEBAN ADRIAN",
+            "documento": "39873458",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MDP ",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 242,
+            "nombre": "ANIS EMILIO DARIO",
+            "documento": "37557586",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MAGALLANES",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 243,
+            "nombre": "ACHA CRISTIAN EZEQUIEL",
+            "documento": "42290081",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO MAGALLANES",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 244,
+            "nombre": "GUTIERREZ ORLANDO ANDRES",
+            "documento": "30799059",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 245,
+            "nombre": "ROJAS DAMIAN GABRIEL",
+            "documento": "32478999",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 246,
+            "nombre": "STIKAR IVAN EMANUNEL",
+            "documento": "40017809",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 247,
+            "nombre": "ALVAREZ EMILIANO JOSE",
+            "documento": "44635218",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 248,
+            "nombre": "ALBORNOZ NESTOR TOMAS",
+            "documento": "42289785",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 249,
+            "nombre": "DA SILVA MATIAS EZEQUIEL",
+            "documento": "36834771",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 250,
+            "nombre": "NINNO TOMAS",
+            "documento": "44218469",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 251,
+            "nombre": "GONZALEZ CASCO RODRIGO",
+            "documento": "95204320",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "STOCK",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 252,
+            "nombre": "ROMERO ANGEL CUSTODIO",
+            "documento": "30832098",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO COSTA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 253,
+            "nombre": "BENITEZ MAURO EDUARDO",
+            "documento": "33634256",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "DEPO COSTA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 254,
+            "nombre": "GUZMAN JUAN NOBERTO",
+            "documento": "25112045",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO COSTA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 255,
+            "nombre": "MARTINEZ ALEJANDRO DANIEL",
+            "documento": "28765214",
+            "Empresa": "ALTA DISTRIBUCION",
+            "Sector": "TRAFICO COSTA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 256,
+            "nombre": "JUVET AGUSTIN",
+            "documento": "40352447",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 257,
+            "nombre": "FERNANDEZ REA FACUNDO TOMAS",
+            "documento": "44562769",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 258,
+            "nombre": "ARLIA AGUSTIN",
+            "documento": "42289276",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 259,
+            "nombre": "DE LEON ANA PAULA",
+            "documento": "42429977",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 260,
+            "nombre": "COBAS MARIA FLORENCIA ",
+            "documento": "34149841",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 261,
+            "nombre": "ROMAN VALERIA ANABELA",
+            "documento": "39834609",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 262,
+            "nombre": "SIMIAN JUAN MANUEL",
+            "documento": "35150042",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 263,
+            "nombre": "ROSALES ALBERTO NICOLAS",
+            "documento": "40292009",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 264,
+            "nombre": "MANSILLA SANTIAGO JOSE",
+            "documento": "42740123",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 265,
+            "nombre": "PETINELLI IVAN IGNACIO ",
+            "documento": "46103695",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 266,
+            "nombre": "LOMBARDO SANTIAGO",
+            "documento": "42568540",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 267,
+            "nombre": "VEGLIO MARIA SOLEDAD",
+            "documento": "41078738",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 268,
+            "nombre": "ZELAYETA ROCIO",
+            "documento": "42779612",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 269,
+            "nombre": "BARBOSA MARIN ANTONELLA",
+            "documento": "42955171",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 270,
+            "nombre": "COMPAGNONI ROCIO",
+            "documento": "41456029",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALBERTI",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 271,
+            "nombre": "LANZONI SCESA NAHUEL",
+            "documento": "42454272",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 272,
+            "nombre": "HERRERA NICOLAS ALEJANDRO",
+            "documento": "43185075",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 273,
+            "nombre": "JIMENEZ WALTER NAHUEL",
+            "documento": "42958070",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 274,
+            "nombre": "VANGIONI CAMILA YASMIN",
+            "documento": "44144976",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 275,
+            "nombre": "JOOS TAMARA AILIN",
+            "documento": "43516009",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 276,
+            "nombre": "PRADO JORGE DANIEL",
+            "documento": "24287037",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 277,
+            "nombre": "DI SANTO IVAN LAUTARO",
+            "documento": "46420140",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 278,
+            "nombre": "SPALTRO ROMAN NAHUEL",
+            "documento": "46564827",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 279,
+            "nombre": "SAN LUIS AGUSTIN",
+            "documento": "46746063",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 280,
+            "nombre": "RODRIGUEZ ALEJO",
+            "documento": "44554947",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 281,
+            "nombre": "PENNELLA ARIELLA LUCIANO MARTIN",
+            "documento": "43544728",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 282,
+            "nombre": "LOPEZ JAVIER AGUSTIN",
+            "documento": "43312412",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 283,
+            "nombre": "AGUIRREBENGOA AGUSTINA CAMILA",
+            "documento": "43099285",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 284,
+            "nombre": "GOMEZ MELANY NEREA",
+            "documento": "43044663",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 285,
+            "nombre": "DALTO MACARENA",
+            "documento": "43856086",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 286,
+            "nombre": "PAREDES AGUSTINA",
+            "documento": "45397815",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 287,
+            "nombre": "DANZA LUCIA",
+            "documento": "46115763",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 288,
+            "nombre": "RIVAINERA JOSE MIGUEL",
+            "documento": "32774905",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 289,
+            "nombre": "GRAPPA MARCELO EDUARDO",
+            "documento": "22157636",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 290,
+            "nombre": "ROTEÑO MARINA ROCIO",
+            "documento": "38283737",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 291,
+            "nombre": "ESPINOSA JULIETA GISEL",
+            "documento": "41149206",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 292,
+            "nombre": "FERNANDEZ JONATHAN MAXIMILIANO",
+            "documento": "39220689",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ALEM",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 293,
+            "nombre": "CESAR MELINA LUJAN",
+            "documento": "39102737",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 294,
+            "nombre": "CORREA NAHUEL",
+            "documento": "41556266",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 295,
+            "nombre": "SALVATIERRA LIZAMA FACUNDO HERNAN",
+            "documento": "44415290",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 296,
+            "nombre": "NELLI JUAN FRANCISCO",
+            "documento": "39849888",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 297,
+            "nombre": "GALEANO SOFIA FLORENCIA",
+            "documento": "40138153",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 298,
+            "nombre": "JUAREZ RODRIGUEZ FACUNDO",
+            "documento": "46936960",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 299,
+            "nombre": "MARTINEZ JOSE HORACIO",
+            "documento": "22381979",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 300,
+            "nombre": "MIÑO LAUTARO LUIS",
+            "documento": "42597504",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 301,
+            "nombre": "SUAREZ NEHEMIAS PEDRO",
+            "documento": "40635662",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 302,
+            "nombre": "FARIAS FRANCO LEANDRO ",
+            "documento": "45619979",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 303,
+            "nombre": "ANDRADA MARIA FLORENCIA",
+            "documento": "39282348",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 304,
+            "nombre": "ALBORNOZ MARINA",
+            "documento": "37789064",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 305,
+            "nombre": "GESTAS MARTINA JULIETA",
+            "documento": "43508221",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 306,
+            "nombre": "CAÑETE ROSA ITATI",
+            "documento": "40587193",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 307,
+            "nombre": "GONZALEZ SPADACCIOLI CATALINA",
+            "documento": "46900962",
+            "Empresa": "MENOR COSTE",
+            "Sector": "CORDOBA",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 308,
+            "nombre": "BARRAQUE HUGO JAVIER",
+            "documento": "31958319",
+            "Empresa": "MENOR COSTE",
+            "Sector": "S.COMUNES",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 309,
+            "nombre": "OLAZAR ADRIAN MARCELO",
+            "documento": "27339043",
+            "Empresa": "MENOR COSTE",
+            "Sector": "S.COMUNES",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 310,
+            "nombre": "ORTEGA VICTOR HUGO",
+            "documento": "39337424",
+            "Empresa": "MENOR COSTE",
+            "Sector": "S.COMUNES",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 311,
+            "nombre": "BAEZ MARIO ",
+            "documento": "18665672",
+            "Empresa": "MENOR COSTE",
+            "Sector": "S.COMUNES",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 312,
+            "nombre": "LEON KEVIN ARIEL",
+            "documento": "43312482",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LOG",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 313,
+            "nombre": "ALI ELIAS FRANCO",
+            "documento": "40721017",
+            "Empresa": "MENOR COSTE",
+            "Sector": "E-COMMERCE",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 314,
+            "nombre": "VECCHIO IAN DAVID",
+            "documento": "43855368",
+            "Empresa": "MENOR COSTE",
+            "Sector": "E-COMMERCE",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 315,
+            "nombre": "GONZALEZ MARTIN",
+            "documento": "29257830",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ADM COP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 316,
+            "nombre": "VALOR BRAIAN ATILIO",
+            "documento": "38611721",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ELABORACION",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 317,
+            "nombre": "GAUNA KEVIN LEONEL",
+            "documento": "41430175",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ELABORACION",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 318,
+            "nombre": "RITHAUD BRUNO MATIAS",
+            "documento": "39600062",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ELABORACION",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 319,
+            "nombre": "GUZMAN ESTEBAN DANIEL",
+            "documento": "41693972",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ELABORACION",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 320,
+            "nombre": "CONTRERAS ACIDIACONO SALVADOR AGUSTIN",
+            "documento": "47062835",
+            "Empresa": "MENOR COSTE",
+            "Sector": "ELABORACION",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 321,
+            "nombre": "GUERENDIAIN ANTONELLA",
+            "documento": "39279118",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 322,
+            "nombre": "FORCONI AGUSTIN",
+            "documento": "44688646",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 323,
+            "nombre": "LANFRANCCHI LUCAS ADRIAN",
+            "documento": "42157743",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 324,
+            "nombre": "FRIAS MARIA MERCEDES",
+            "documento": "30424845",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 325,
+            "nombre": "QUIROGA MELINA",
+            "documento": "32649714",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 326,
+            "nombre": "GALERA GABRIELA",
+            "documento": "46001825",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 327,
+            "nombre": "BOGADO EMILIANO JAVIER",
+            "documento": "35231949",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 328,
+            "nombre": "GOMEZ OCTAVIO AGUSTIN",
+            "documento": "42037742",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 329,
+            "nombre": "SULLKA ARANCIBIA ROSMERY",
+            "documento": "63158275",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 330,
+            "nombre": "FERREYRA MAXIMILIANO DARIO",
+            "documento": "41569066",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 331,
+            "nombre": "GOMEZ DIEGO ANTONIO",
+            "documento": "34580049",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 332,
+            "nombre": "GALVAN JUAN IGNACIO",
+            "documento": "45806332",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 333,
+            "nombre": "GLEREAN ABRIL",
+            "documento": "44831520",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 334,
+            "nombre": "RAMIREZ ROCIO",
+            "documento": "34206992",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 335,
+            "nombre": "DIAZ LUCIANA",
+            "documento": "44069135",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 336,
+            "nombre": "DELFINO ZEBALLOS SABRINA",
+            "documento": "40721408",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 337,
+            "nombre": "ARNEJO ORTOLANI FLORENCIA KAREN",
+            "documento": "41068895",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 338,
+            "nombre": "GUAYUAN ANGELES LUZ MARIA",
+            "documento": "46164927",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 339,
+            "nombre": "GIMENEZ LAUTARO MOISES",
+            "documento": "41424429",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 340,
+            "nombre": "LUJAN RAUL MANUEL",
+            "documento": "22405879",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 341,
+            "nombre": "PIZZIPAULO SILVIA BEATRIZ",
+            "documento": "20367901",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 342,
+            "nombre": "RODRIGUEZ ALEJANDRA ELIZABETH",
+            "documento": "33889449",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        },
+        {
+            "id": 343,
+            "nombre": "CABRERA MARICEL",
+            "documento": "33072972",
+            "Empresa": "MENOR COSTE",
+            "Sector": "LP",
+            "Asistio": false,
+            "fechaAsistida": "",
+            "token": ""
+        }
+    ]
+}
