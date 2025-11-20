@@ -1,3 +1,11 @@
 <header>
-    <a routerLink="/home">Fiesta Fin de Año</a>
+    <div class="header-content">
+        <a routerLink="/" class="logo">Fiesta Fin de Año</a>
+
+        
+        @if (authService.isAuthenticated()) {
+            <button class= "main-btn" (click)="menuStaff()">Menu</button>
+            <button class="logout-btn" (click)="cerrarSesion()">Salir</button>
+        }
+    </div>
 </header>

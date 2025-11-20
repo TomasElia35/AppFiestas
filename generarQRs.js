@@ -7,7 +7,7 @@ const QRCode = require('qrcode');
 // Ruta a tu base de datos
 const dbPath = path.join(__dirname, 'database', 'db.json');
 // Carpeta donde se guardarán las imágenes QR
-const outputDir = path.join(__dirname, 'qrcodes');
+const outputDir = path.join(__dirname, 'public', 'qrcodes');
 // --------------------
 
 /**

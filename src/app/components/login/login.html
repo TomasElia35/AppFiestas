@@ -1,0 +1,28 @@
+<div class="login-container">
+  <div class="login-card">
+    <h1>Acceso Staff</h1>
+    <p>Área restringida para el personal autorizado.</p>
+
+    <form (ngSubmit)="ingresar()">
+      <div class="input-group">
+        <label>Usuario</label>
+        <input type="text" [(ngModel)]="usuario" name="usuario" placeholder="Usuario">
+      </div>
+
+      <div class="input-group">
+        <label>Contraseña</label>
+        <input type="password" [(ngModel)]="clave" name="clave" placeholder="••••••">
+      </div>
+
+      @if (error()) {
+        <div class="mensaje-error">{{ error() }}</div>
+      }
+
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <div class="volver">
+      <a (click)="volverAlInicio()">Volver al inicio</a>
+    </div>
+  </div>
+</div>
