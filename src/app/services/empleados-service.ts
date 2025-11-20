@@ -1,47 +1,62 @@
-import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Database, ref, listVal, update, query, orderByChild, equalTo } from '@angular/fire/database';
+import { Observable, from, map } from 'rxjs';
 import { EmpleadosModel } from '../models/empleados-model';
-// import { environment } from '../environments/environment.prod';
 
 @Injectable({
   providedIn: 'root',
 })
 export class EmpleadosService {
+  private db = inject(Database);
 
-  private http = inject(HttpClient);
-  //private urlApi = `http://localhost:3000/empleados`;
-  //private urlApi = `https://192.168.157.154:3001/empleados`;
-  //private urlApi = `https://192.168.160.242:3001/empleados`;
-  //private urlApi = `https://192.168.0.180:3001/empleados`;
-  private urlApi = `https://192.168.160.227:3001/empleados`;
-  //private urlApi = environment.apiUrl + '/empleados';
-
-  getEmpleados(){
-        return this.http.get<EmpleadosModel[]>(this.urlApi);
-  }
-  getEmpleado(id: string | number){
-    return this.http.get<EmpleadosModel>(`${this.urlApi}/${id}`);
-  }
-  updateEmpleado(empleado: EmpleadosModel){
-    return this.http.put<EmpleadosModel>(`${this.urlApi}/${empleado.id}`, empleado);
+  // Obtener todos los empleados
+  getEmpleados(): Observable<EmpleadosModel[]> {
+    const empleadosRef = ref(this.db, 'empleados');
+    return listVal<EmpleadosModel>(empleadosRef);
   }
 
-  /**
-   * Valida un empleado usando su DNI y Token.
-   * Devuelve un array, idealmente con 1 resultado si la combinación es correcta.
-   */
-  validarEmpleado(documento: string, token: string): Observable<EmpleadosModel[]> {
-    return this.http.get<EmpleadosModel[]>(`${this.urlApi}?documento=${documento}&token=${token}`);
+  // Obtener un empleado por ID (Filtramos en el cliente para simplificar)
+  getEmpleado(id: string | number): Observable<EmpleadosModel> {
+    return this.getEmpleados().pipe(
+      map(empleados => empleados.find(e => e.id == id) as EmpleadosModel)
+    );
   }
 
-  // 👇 AÑADIR ESTE MÉTODO (PARA BÚSQUEDA MANUAL)
-  /**
-   * Busca un empleado usando solo su DNI.
-   * Devuelve un array, idealmente con 1 resultado.
-   */
+  // Actualizar empleado (Convertimos la Promesa de Firebase a Observable para no romper tu código existente)
+  updateEmpleado(empleado: EmpleadosModel): Observable<void> {
+    // Asumimos que el ID corresponde al índice en el array de Firebase (id 1 -> índice 0)
+    // Si tu JSON tiene ids desordenados, habría que buscar la "key" primero. 
+    // Para este caso simple:
+    const path = `empleados/${Number(empleado.id) - 1}`; 
+    const empleadoRef = ref(this.db, path);
+    
+    // 'from' convierte la promesa de update en un Observable
+    return from(update(empleadoRef, empleado));
+  }
+
+  // Buscar por documento
   buscarPorDocumento(documento: string): Observable<EmpleadosModel[]> {
-    return this.http.get<EmpleadosModel[]>(`${this.urlApi}?documento=${documento}`);
+    const empleadosRef = ref(this.db, 'empleados');
+    // Creamos una query para filtrar por el campo 'documento'
+    const q = query(empleadosRef, orderByChild('documento'), equalTo(documento));
+    return listVal<EmpleadosModel>(q);
   }
-  
+
+  // Validar entrada (DNI + Token)
+  validarEmpleado(documento: string, token: string): Observable<EmpleadosModel[]> {
+    const empleadosRef = ref(this.db, 'empleados');
+    const q = query(empleadosRef, orderByChild('documento'), equalTo(documento));
+    
+    // Firebase filtra por un solo campo, así que filtramos el token en memoria
+    return listVal<EmpleadosModel>(q).pipe(
+      map(empleados => empleados.filter(e => e.token === token))
+    );
+  }
+
+  // Buscar por Token (para el link mágico de invitados)
+  buscarPorToken(token: string): Observable<EmpleadosModel[]> {
+    const empleadosRef = ref(this.db, 'empleados');
+    const q = query(empleadosRef, orderByChild('token'), equalTo(token));
+    return listVal<EmpleadosModel>(q);
+  }
 }
